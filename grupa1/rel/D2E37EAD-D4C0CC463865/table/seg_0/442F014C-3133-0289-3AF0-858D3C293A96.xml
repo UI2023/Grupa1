@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="442F014C-3133-0289-3AF0-858D3C293A96" name="Usluga">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:11:49 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usluga" id="2A42B0C8-AABC-7365-9569-0148704EE0FE">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:15:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="8AA7DA09-4628-3B5B-6377-6FBFA29C0C6C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:15:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma_id" id="5E193C58-E007-1998-3177-F3B8EE0ACB38">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:18:08 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30444C95-668B-D326-B8DB-5C20A4A47E2B" referredColumn="01273C10-0C61-A4D4-1E80-306CD41D1B47"/>
+</associations>
+</Column>
+<Column name="Prodaja_id_prodaja" id="561AC59C-728C-B926-7C88-A3EBED46EC67">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:31:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72D01722-CCBA-049E-0FBD-E9A1B512A1EA" referredColumn="9058A082-FEAF-CB76-0D8A-FD5C0447409E"/>
+</associations>
+</Column>
+<Column name="Prodaja_Usluga_id_usluga" id="640539DC-FB37-36E9-C87B-5E5E4CC21074">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:31:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72D01722-CCBA-049E-0FBD-E9A1B512A1EA" referredColumn="8A068A10-64CA-DAB7-AF6C-00B9D140005A"/>
+</associations>
+</Column>
+<Column name="Korisnik_id_korisnika" id="F874651A-0553-797C-963B-9848CF1B6814">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:52:16 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37EBE80B-B505-A7AF-C5AB-F598CDA6739B" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="897A738E-06AF-DE19-1F17-66E5B2BF7C07" name="Usluga_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:15:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A42B0C8-AABC-7365-9569-0148704EE0FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FF9785D-60A9-F3AC-1EEA-A788643996ED" name="Usluga_Firma_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:18:08 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E193C58-E007-1998-3177-F3B8EE0ACB38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4274F88-00E5-BCB7-2BAC-E09B9ACD1BC2" name="Usluga__FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:31:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="561AC59C-728C-B926-7C88-A3EBED46EC67"/>
+<colUsage columnID="640539DC-FB37-36E9-C87B-5E5E4CC21074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7402955A-0BE0-F967-A9A9-1869A153E5FF" name="Usluga_Korisnik_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:52:16 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F874651A-0553-797C-963B-9848CF1B6814"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

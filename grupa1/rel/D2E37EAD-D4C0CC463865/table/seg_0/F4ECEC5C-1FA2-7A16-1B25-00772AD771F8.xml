@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4ECEC5C-1FA2-7A16-1B25-00772AD771F8" name="Motor">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_motor" id="01A1C094-6392-702D-C234-6D7332293FAE">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marka" id="C1CAE106-1809-B85E-45FA-6DDC4E0EBB6F">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="F85085EF-B539-4829-DFA4-C1FD4E8FFF2D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godiste" id="B6B0D402-98A1-3438-1D8F-A0DBAFE2190A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usluga_id_usluga" id="34AE2955-A119-25F0-A93C-DF4E32C54F54">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:45:23 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E56717F3-5A5A-C9B7-092F-A3460F117BD9" referredColumn="2A42B0C8-AABC-7365-9569-0148704EE0FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E6AD271-6C4A-A9D4-22C0-AAB887638CF1" name="Automobilv1_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01A1C094-6392-702D-C234-6D7332293FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FFE5060-D319-4ECA-5C09-E43D12E425B5" name="Motor_Usluga_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:45:23 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34AE2955-A119-25F0-A93C-DF4E32C54F54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

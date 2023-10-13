@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFD97FAD-9D79-52E4-A740-2FF1B60F1F1C" name="Lokacija">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 16:55:09 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokacija" id="3FB34E00-1C89-3E85-6D4B-1762D6A52140">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 16:56:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E3F1C204-6139-F487-0C01-3E8DD78EE319">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 16:58:40 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma_id" id="95310E3F-BBC4-3C22-6FCC-E7AB3AFE6689">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:03:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="647A9576-ADA7-7135-9AAA-A011B2DABD19" referredColumn="01273C10-0C61-A4D4-1E80-306CD41D1B47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03E1E278-4A32-998F-258E-D6CF949ABB56" name="Lokacija_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 16:56:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FB34E00-1C89-3E85-6D4B-1762D6A52140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B406016-20FF-B0CB-FB7A-95D74F6AB2CC" name="Lokacija_Firma_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:03:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95310E3F-BBC4-3C22-6FCC-E7AB3AFE6689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

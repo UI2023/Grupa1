@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FBFCBC1-579F-2DE6-3D49-8DBF5B8694AC" name="Delovi">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_automobil" id="53F58588-33B8-71FB-3D60-A3F19F70E06B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marka" id="B8971FF5-C2BD-5BC0-1C02-CF82CEE831DE">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="477EA00C-A1FD-5B3D-7706-51FBA1EEB90A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godiste" id="B7D0922F-C24D-4474-C79D-8AE6C7189E1D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip" id="1FC49FFE-C7F6-F7CA-1E64-1C87320DF8BC">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:42:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usluga_id_usluga" id="22D0C16D-6FAA-F8B7-8C1F-CF225CB0FFDD">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:44:56 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F48BBCEE-E069-9262-8E20-F37DC23CF677" referredColumn="2A42B0C8-AABC-7365-9569-0148704EE0FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26C792E6-ECC0-BD3D-D551-6B7B04CEC923" name="Automobilv2_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:38:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53F58588-33B8-71FB-3D60-A3F19F70E06B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF1ECFF-32CB-6C18-F037-B0B3B3708E6A" name="Delovi_Usluga_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:44:56 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22D0C16D-6FAA-F8B7-8C1F-CF225CB0FFDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BF4C25B-52C2-3D6F-7638-D45347A0B8A5" name="Zaposleni">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:05:53 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zaposleni" id="A4D606B3-749A-DE32-9C84-5B1CC3E2068F">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:07:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="BEE7ED1E-34B8-0B2C-648B-7B0A1228F859">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:07:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="58249670-F37A-A7D7-E844-91BA160B4FBA">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:07:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B73A014A-EBF9-E1D3-FFB1-9299C28AB274">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:08:09 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="C6A7E0FF-C6AD-9082-643A-858AA78C2BD3">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:08:43 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brojTelefona" id="76D5FDFA-A632-79AC-9FDF-E6F3DDD0CE23">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:09:23 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija_id_lokacija" id="F0B79E80-B602-68D5-CC6E-0F0058139957">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:09:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71D983FD-7D90-606A-4911-2CA79F20646A" referredColumn="3FB34E00-1C89-3E85-6D4B-1762D6A52140"/>
+</associations>
+</Column>
+<Column name="Zaposleni_id_zaposleni" id="0EBC4271-C35F-764D-2233-FD4734AE0ECE">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:10:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="871A2E2A-E8C8-EFA5-23CA-E1F223FECA17" referredColumn="A4D606B3-749A-DE32-9C84-5B1CC3E2068F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D1FFE99-C5A0-73CD-F99B-03BF1D8234AB" name="Zaposleni_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:07:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D606B3-749A-DE32-9C84-5B1CC3E2068F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80D05DBF-50F1-BCE6-2F75-F4023B9ABBDD" name="Zaposleni_Lokacija_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:09:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B79E80-B602-68D5-CC6E-0F0058139957"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83796D71-2BAD-840F-454C-9AB3FAD3D245" name="menadzer">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:10:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EBC4271-C35F-764D-2233-FD4734AE0ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

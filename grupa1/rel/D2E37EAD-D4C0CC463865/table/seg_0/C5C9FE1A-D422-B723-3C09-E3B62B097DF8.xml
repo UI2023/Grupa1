@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5C9FE1A-D422-B723-3C09-E3B62B097DF8" name="Tip_Usluge">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:20:18 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prodaja" id="9058A082-FEAF-CB76-0D8A-FD5C0447409E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:21:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usluga_id_usluga" id="8A068A10-64CA-DAB7-AF6C-00B9D140005A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:22:31 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1722FCCC-4D3B-23C6-9156-D6E0EAA708FE" name="Prodaja_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:21:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9058A082-FEAF-CB76-0D8A-FD5C0447409E"/>
+<colUsage columnID="8A068A10-64CA-DAB7-AF6C-00B9D140005A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

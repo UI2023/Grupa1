@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72D01722-CCBA-049E-0FBD-E9A1B512A1EA" containerWithKeyObject="442F014C-3133-0289-3AF0-858D3C293A96" localFKIndex="C4274F88-00E5-BCB7-2BAC-E09B9ACD1BC2" name="Usluga__FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:31:52 UTC</createdTime>
+<comment><![CDATA[cardinality=1..1]]></comment>
+<ownerDesignName>grupa1</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>id_prodaja,Usluga_id_usluga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="714290EE-D61E-E681-481C-56198728E265" name="Firma">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 16:53:18 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="01273C10-0C61-A4D4-1E80-306CD41D1B47">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:03:03 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27444EF6-644A-ACB9-4110-B86AF2C49F62" name="Firma_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-09 17:03:03 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01273C10-0C61-A4D4-1E80-306CD41D1B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
