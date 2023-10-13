@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F6178AB-915C-8B03-3BD9-05AFA796FCCB" name="Automobil">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="432C8DD6-E24F-C1CF-FB07-AD54A7A411D5" name="Stavka_racuna">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 16:52:03 UTC</createdTime>
+<createdTime>2023-10-13 16:59:23 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_automobil" id="BA149881-A6B6-478F-C74B-8879E3905BA6">
+<Column name="id_stavke" id="9DDCA2AC-B91A-3343-3E9B-42DE77548E57">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:37:52 UTC</createdTime>
+<createdTime>2023-10-13 16:59:54 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,34 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Model_Automobila_id_model" id="66F12926-581D-235D-57F1-EE6CE352576A">
+<Column name="Racun_id_racun" id="F96045BD-7A03-CAA5-C456-2D5F91723FE4">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:23:49 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9B939716-8AC3-E54F-B9EC-852F23AD3B9D" referredColumn="235A28EF-939B-573C-469F-4F0A56F34B24"/>
-</associations>
-</Column>
-<Column name="godiste" id="A5E252F0-472C-0B7A-163C-57C89032C827">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:37:52 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Prodaja_Automobila_id_prodaje_automobila" id="575FFD7C-10A3-F51B-AFCB-35CF1D838B67">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:57:39 UTC</createdTime>
+<createdTime>2023-10-13 17:00:31 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,41 +29,64 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FECCD5DF-90AB-B8B3-22D1-F18367D68648" referredColumn="E6D3436C-6E87-813B-A8CF-CAA01FF5C7F8"/>
+<colAssociation fkAssociation="84056800-271F-67AA-34AE-65875912297C" referredColumn="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
 </associations>
+</Column>
+<Column name="Ponuda_id_ponude" id="269491D2-DCA4-3692-E537-A314B2236CAC">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 17:01:34 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594FEC01-ABCE-DA7F-34D4-D28AC80DA88E" referredColumn="6E97D145-12FC-2B8D-CA25-905609867A83"/>
+</associations>
+</Column>
+<Column name="kolicina" id="5FB6BADB-CEF8-96AF-21D8-16E4BAFAC87D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 17:05:25 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="25DC08F6-D3A6-E5A1-6133-3989ED1EE0A6" name="Automobil_PK">
+<ind_PK_UK id="5927CD36-9E84-AA2D-5069-2D6C7A4F93A0" name="Stavka_racuna_PK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:37:52 UTC</createdTime>
+<createdTime>2023-10-13 16:59:54 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BA149881-A6B6-478F-C74B-8879E3905BA6"/>
-<colUsage columnID="66F12926-581D-235D-57F1-EE6CE352576A"/>
+<colUsage columnID="269491D2-DCA4-3692-E537-A314B2236CAC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="537D60F5-91E7-0A97-E453-3BE57F86B2C6" name="Automobil_Model_Automobila_FK">
+<ind_PK_UK id="D615493E-8991-5D59-F32E-4242A26AE699" name="Stavka_racuna_Racun_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:23:49 UTC</createdTime>
+<createdTime>2023-10-13 17:00:31 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="66F12926-581D-235D-57F1-EE6CE352576A"/>
+<colUsage columnID="F96045BD-7A03-CAA5-C456-2D5F91723FE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DCFC32A9-CA3C-6C1D-9C28-6F1B4D1C2739" name="Automobil_Prodaja_Automobila_FK">
+<ind_PK_UK id="9D6E984A-FDA5-96EE-70FE-BE001FED908E" name="Stavka_racuna_Ponuda_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:57:39 UTC</createdTime>
+<createdTime>2023-10-13 17:01:34 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="575FFD7C-10A3-F51B-AFCB-35CF1D838B67"/>
+<colUsage columnID="269491D2-DCA4-3692-E537-A314B2236CAC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

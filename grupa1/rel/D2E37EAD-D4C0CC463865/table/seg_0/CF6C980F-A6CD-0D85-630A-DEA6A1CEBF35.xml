@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF6C980F-A6CD-0D85-630A-DEA6A1CEBF35" name="Model_Automobila">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:08:13 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_model" id="235A28EF-939B-573C-469F-4F0A56F34B24">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:20:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marka_Automobila_id_marka" id="D38D3657-FF2D-DCAF-879D-8FB9BE505EB5">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:18:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAFBF205-CB41-051B-F93B-81923278A05B" referredColumn="7F02F7F0-6DF3-A652-D192-79F6F6CADA3D"/>
+</associations>
+</Column>
+<Column name="Tip_Karoserije_id_karoserija" id="2258F526-73C0-182A-AC43-6A0DF9FD3113">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:23:14 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C85D1C87-926E-0922-EECA-68DC832DCCDC" referredColumn="CA0C2829-1D8F-FB5E-29C1-9F0A4C9BBB62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5191DB8-A836-7A06-BF05-4D89204A9B8D" name="Model_Automobila_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:20:47 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="235A28EF-939B-573C-469F-4F0A56F34B24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8FED638-D4FD-5E5F-11C6-520D4FCA0274" name="Model_Automobila_Marka_Automobila_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:18:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D38D3657-FF2D-DCAF-879D-8FB9BE505EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92BD3291-C140-6EC7-18C3-8044378B5418" name="Model_Automobila_Tip_Karoserije_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:23:14 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2258F526-73C0-182A-AC43-6A0DF9FD3113"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

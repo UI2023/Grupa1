@@ -73,35 +73,6 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Lokacija_id_lokacija" id="F0B79E80-B602-68D5-CC6E-0F0058139957">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:09:42 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="71D983FD-7D90-606A-4911-2CA79F20646A" referredColumn="3FB34E00-1C89-3E85-6D4B-1762D6A52140"/>
-</associations>
-</Column>
-<Column name="Zaposleni_id_zaposleni" id="0EBC4271-C35F-764D-2233-FD4734AE0ECE">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:10:07 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="871A2E2A-E8C8-EFA5-23CA-E1F223FECA17" referredColumn="A4D606B3-749A-DE32-9C84-5B1CC3E2068F"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4D1FFE99-C5A0-73CD-F99B-03BF1D8234AB" name="Zaposleni_PK">
@@ -113,26 +84,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A4D606B3-749A-DE32-9C84-5B1CC3E2068F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="80D05DBF-50F1-BCE6-2F75-F4023B9ABBDD" name="Zaposleni_Lokacija_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:09:42 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F0B79E80-B602-68D5-CC6E-0F0058139957"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="83796D71-2BAD-840F-454C-9AB3FAD3D245" name="menadzer">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:10:07 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0EBC4271-C35F-764D-2233-FD4734AE0ECE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

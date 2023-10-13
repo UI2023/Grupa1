@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="867D2D32-0F20-80E6-D767-DEB10DFDCBC7" name="Ponuda">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:35:07 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ponude" id="6E97D145-12FC-2B8D-CA25-905609867A83">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:36:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABCE884A-5303-649A-1A43-F261F3E3C101" name="Ponuda_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 16:36:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E97D145-12FC-2B8D-CA25-905609867A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

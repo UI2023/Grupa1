@@ -62,21 +62,6 @@
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usluga_id_usluga" id="22D0C16D-6FAA-F8B7-8C1F-CF225CB0FFDD">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:44:56 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F48BBCEE-E069-9262-8E20-F37DC23CF677" referredColumn="2A42B0C8-AABC-7365-9569-0148704EE0FE"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="26C792E6-ECC0-BD3D-D551-6B7B04CEC923" name="Automobilv2_PK">
@@ -88,16 +73,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="53F58588-33B8-71FB-3D60-A3F19F70E06B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BFF1ECFF-32CB-6C18-F037-B0B3B3708E6A" name="Delovi_Usluga_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:44:56 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="22D0C16D-6FAA-F8B7-8C1F-CF225CB0FFDD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

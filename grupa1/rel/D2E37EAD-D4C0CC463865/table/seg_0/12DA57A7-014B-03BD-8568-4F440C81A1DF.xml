@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12DA57A7-014B-03BD-8568-4F440C81A1DF" name="Pozicije_zaposlenih">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 15:09:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pozocija" id="4CD74093-A0B8-37F5-0F5A-371C2D2EFEA0">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 15:18:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E374A693-8DF6-E24A-2AE9-D000838703A0">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 15:18:38 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="C304191D-E20A-1588-08B4-76540A8C61B6">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 15:19:22 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="384B8F1F-3F68-117A-7AEE-40AF438930BE" name="Pozicije_zaposlenih_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-10-13 15:18:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD74093-A0B8-37F5-0F5A-371C2D2EFEA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
