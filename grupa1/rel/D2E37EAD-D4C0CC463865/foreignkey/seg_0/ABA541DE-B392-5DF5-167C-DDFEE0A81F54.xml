@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABA541DE-B392-5DF5-167C-DDFEE0A81F54" containerWithKeyObject="D47232B4-3AE9-58DF-E7C7-93DD3BC37D32" localFKIndex="306BCFEC-61D9-1813-DBC7-EC5E460420EB" name="Model_Dela_Grupa_Delova_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:33:54 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Grupa_Delova</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24D30DF3-D4C2-30A8-25B4-82310299B734</referredTableID>
+<keyObject>73BB7DBC-B59D-FE8C-3434-5F2114291D35</keyObject>
+<referredKeyID>73BB7DBC-B59D-FE8C-3434-5F2114291D35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_grupe,id_kategorije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

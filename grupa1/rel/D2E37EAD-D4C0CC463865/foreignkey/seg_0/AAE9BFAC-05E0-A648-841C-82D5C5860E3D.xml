@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAE9BFAC-05E0-A648-841C-82D5C5860E3D" containerWithKeyObject="73A1D487-3F15-5651-D0CD-63B167F12EDC" localFKIndex="73345F3E-0479-ED27-0D27-6546B4A857BF" name="Model_Motocikla_Marka_Motocikla_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:07:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Marka_Motocikla</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>350B1FEB-E23F-CD02-213A-DF98751B37A0</referredTableID>
+<keyObject>8632BFC2-8FB7-A7F4-095E-81C4EBC0669C</keyObject>
+<referredKeyID>8632BFC2-8FB7-A7F4-095E-81C4EBC0669C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_marka_m</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

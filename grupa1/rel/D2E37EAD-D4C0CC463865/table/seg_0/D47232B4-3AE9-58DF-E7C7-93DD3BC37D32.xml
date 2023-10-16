@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D47232B4-3AE9-58DF-E7C7-93DD3BC37D32" name="Model_Dela">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:26:20 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_model" id="60675347-7C29-0E21-CE81-8A5209B6E607">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:26:20 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_marka_d" id="1937BE89-0D4A-B511-EDB4-6B15B86FEF4B">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:28:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0E9D3CD-8CD0-4B4C-9A84-D7D0CF63A30A" referredColumn="9B3E6EA1-910B-9706-128A-6983B924C162"/>
+</associations>
+</Column>
+<Column name="id_grupe" id="6D835D1E-E33B-1B41-6583-812D9723EA70">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:33:54 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABA541DE-B392-5DF5-167C-DDFEE0A81F54" referredColumn="345955F3-E5EB-01D0-5737-BA9375153D22"/>
+</associations>
+</Column>
+<Column name="id_kategorije" id="0ECE1191-8B88-4B0E-0F84-8EE595318AAF">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:34:45 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABA541DE-B392-5DF5-167C-DDFEE0A81F54" referredColumn="EBD06FE8-3E81-29E4-46FA-7E02CC50BF26"/>
+</associations>
+</Column>
+<Column name="naziv" id="C7618AB5-79B9-BE43-DD24-F0E479DF6AF7">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:40:55 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98124393-7123-A6A0-0E68-CF5433744E6A" name="Model_Dela_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:26:20 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60675347-7C29-0E21-CE81-8A5209B6E607"/>
+<colUsage columnID="6D835D1E-E33B-1B41-6583-812D9723EA70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D173D252-E80E-6177-888A-0E9924A7630B" name="Model_Dela_Marka_Dela_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:28:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1937BE89-0D4A-B511-EDB4-6B15B86FEF4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="306BCFEC-61D9-1813-DBC7-EC5E460420EB" name="Model_Dela_Grupa_Delova_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:33:54 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D835D1E-E33B-1B41-6583-812D9723EA70"/>
+<colUsage columnID="0ECE1191-8B88-4B0E-0F84-8EE595318AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

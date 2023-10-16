@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Model_Automobila_id_model" id="66F12926-581D-235D-57F1-EE6CE352576A">
+<Column name="id_model" id="66F12926-581D-235D-57F1-EE6CE352576A">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-13 16:23:49 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -43,7 +43,7 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prodaja_Automobila_id_prodaje_automobila" id="575FFD7C-10A3-F51B-AFCB-35CF1D838B67">
+<Column name="id_prodaje_automobila" id="575FFD7C-10A3-F51B-AFCB-35CF1D838B67">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-13 16:57:39 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -55,6 +55,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FECCD5DF-90AB-B8B3-22D1-F18367D68648" referredColumn="E6D3436C-6E87-813B-A8CF-CAA01FF5C7F8"/>
+</associations>
+</Column>
+<Column name="Model_Automobila_id_marka" id="A20A7C3F-E644-0435-8A4B-C0B6E86F4DA6">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:22:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B939716-8AC3-E54F-B9EC-852F23AD3B9D" referredColumn="D38D3657-FF2D-DCAF-879D-8FB9BE505EB5"/>
 </associations>
 </Column>
 </columns>
@@ -79,6 +93,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="66F12926-581D-235D-57F1-EE6CE352576A"/>
+<colUsage columnID="A20A7C3F-E644-0435-8A4B-C0B6E86F4DA6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DCFC32A9-CA3C-6C1D-9C28-6F1B4D1C2739" name="Automobil_Prodaja_Automobila_FK">
@@ -90,6 +105,13 @@
 <indexColumnUsage>
 <colUsage columnID="575FFD7C-10A3-F51B-AFCB-35CF1D838B67"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F07FCCCE-607C-F30E-E224-6C2C4E18A931" name="Automobil_Usluga_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 16:45:11 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

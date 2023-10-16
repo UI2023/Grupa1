@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Racun_id_racun" id="F96045BD-7A03-CAA5-C456-2D5F91723FE4">
+<Column name="id_racun" id="F96045BD-7A03-CAA5-C456-2D5F91723FE4">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-13 17:00:31 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -32,7 +32,7 @@
 <colAssociation fkAssociation="84056800-271F-67AA-34AE-65875912297C" referredColumn="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
 </associations>
 </Column>
-<Column name="Ponuda_id_ponude" id="269491D2-DCA4-3692-E537-A314B2236CAC">
+<Column name="id_ponude" id="269491D2-DCA4-3692-E537-A314B2236CAC">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-13 17:01:34 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A1DF3F5-33F6-DD62-712F-F040E344170B" name="Tip_Motocikla">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:00:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipa_motocikla" id="2C762C2F-9C35-5562-D736-B29B55F70915">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:00:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C345237-8CF9-7DF2-2003-492EEA4CDE53" name="Tip_Motocikla_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:00:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C762C2F-9C35-5562-D736-B29B55F70915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

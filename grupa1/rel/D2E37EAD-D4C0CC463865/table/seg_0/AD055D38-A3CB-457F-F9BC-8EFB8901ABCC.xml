@@ -1,16 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3645F36A-2BD9-1152-3202-3BE1EB5E3A57" name="Prodaja_Automobila">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:53:32 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD055D38-A3CB-457F-F9BC-8EFB8901ABCC" name="Prodaja_Motocikla">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:12:09 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_21</ordsAlias>
+<ordsAlias>table_23</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_prodaje_automobila" id="E6D3436C-6E87-813B-A8CF-CAA01FF5C7F8">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:56:33 UTC</createdTime>
+<Column name="id_prodaja_motocikla" id="EEBCA557-30CB-A5A7-70C3-192BA7660208">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:13:45 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="2F37357A-484F-6CE7-44AF-2B8819DA6DE1">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:14:00 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +28,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_ponude" id="A48A26E9-0EA7-775E-865F-0CA19448776B">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:56:43 UTC</createdTime>
+<Column name="id_ponude" id="FD7FFA33-854D-6599-58F5-DCE8BF662B0E">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:15:19 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,40 +39,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="64D7B99E-0A33-5533-4E70-C697078A01B5" referredColumn="6E97D145-12FC-2B8D-CA25-905609867A83"/>
+<colAssociation fkAssociation="20EB0235-4C7B-CF45-06F8-A320F0ED55C7" referredColumn="6E97D145-12FC-2B8D-CA25-905609867A83"/>
 </associations>
-</Column>
-<Column name="cena" id="BD264315-3507-E39D-E359-D8498FE1C6C0">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:09:56 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4B2DE85B-AAB9-7B28-A6DF-33C98E30C50A" name="Prodaja_Automobila_PK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:57:31 UTC</createdTime>
+<ind_PK_UK id="EE828432-9D71-5847-CCCB-56C5529C9F8B" name="Prodaja_Motocikla_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:13:45 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6D3436C-6E87-813B-A8CF-CAA01FF5C7F8"/>
+<colUsage columnID="EEBCA557-30CB-A5A7-70C3-192BA7660208"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1E5482E8-E6CA-9880-7B01-EA43876961F9" name="Prodaja_Automobila_Ponuda_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:56:43 UTC</createdTime>
+<ind_PK_UK id="F7423AB3-EDAD-9C6F-7918-0CF086954783" name="Prodaja_Motocikla_Ponuda_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:15:19 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A48A26E9-0EA7-775E-865F-0CA19448776B"/>
+<colUsage columnID="FD7FFA33-854D-6599-58F5-DCE8BF662B0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4ECEC5C-1FA2-7A16-1B25-00772AD771F8" name="Motor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4ECEC5C-1FA2-7A16-1B25-00772AD771F8" name="Motocikl">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-09 17:38:07 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_motor" id="01A1C094-6392-702D-C234-6D7332293FAE">
+<Column name="id_motocikl" id="01A1C094-6392-702D-C234-6D7332293FAE">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-09 17:38:07 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -16,28 +16,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="marka" id="C1CAE106-1809-B85E-45FA-6DDC4E0EBB6F">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:38:07 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="model" id="F85085EF-B539-4829-DFA4-C1FD4E8FFF2D">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:38:07 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="godiste" id="B6B0D402-98A1-3438-1D8F-A0DBAFE2190A">
@@ -51,21 +29,51 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usluga_id_usluga" id="34AE2955-A119-25F0-A93C-DF4E32C54F54">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:45:23 UTC</createdTime>
+<Column name="id_model" id="77C39B85-9DBB-A239-783F-CDFB2379816B">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:06:47 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5885E31F-9601-F3DF-50AC-BA5FA3192EC4" referredColumn="C27DECBC-CED2-E3AB-8FCD-D72D9AF98937"/>
+</associations>
+</Column>
+<Column name="id_prodaja_motocikla" id="2922038E-BD5D-A4E0-C7F1-9317AA9016E6">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:14:24 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92B98A64-75A7-10AC-4EA7-F15823EA7051" referredColumn="EEBCA557-30CB-A5A7-70C3-192BA7660208"/>
+</associations>
+</Column>
+<Column name="Model_Motocikla_id_marka_m" id="0EE632A1-0992-FEF6-8FDF-284CC91EF1FB">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:22:13 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5885E31F-9601-F3DF-50AC-BA5FA3192EC4" referredColumn="E0567D7B-5E2B-1655-2955-A8403C42ADEA"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5E6AD271-6C4A-A9D4-22C0-AAB887638CF1" name="Automobilv1_PK">
+<ind_PK_UK id="5E6AD271-6C4A-A9D4-22C0-AAB887638CF1" name="Motocikl_PK">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-09 17:38:07 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -74,6 +82,35 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="01A1C094-6392-702D-C234-6D7332293FAE"/>
+<colUsage columnID="77C39B85-9DBB-A239-783F-CDFB2379816B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130739B5-91D0-9660-C35E-30F9F5393763" name="Motor_Usluga_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 16:45:11 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="11D9E5A4-EAAE-77A2-C99E-BC381E53436C" name="Motocikl_Model_Motocikla_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:06:47 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77C39B85-9DBB-A239-783F-CDFB2379816B"/>
+<colUsage columnID="0EE632A1-0992-FEF6-8FDF-284CC91EF1FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D5BF22E-F60F-D655-904F-4F255DBCABB3" name="Motocikl_Prodaja_Motocikla_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:14:24 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2922038E-BD5D-A4E0-C7F1-9317AA9016E6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="350B1FEB-E23F-CD02-213A-DF98751B37A0" name="Marka_Motocikla">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:00:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_marka_m" id="0908DC68-E705-9D98-9B63-724FA991F2DF">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:00:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8632BFC2-8FB7-A7F4-095E-81C4EBC0669C" name="Marka_Motocikla_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:00:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0908DC68-E705-9D98-9B63-724FA991F2DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

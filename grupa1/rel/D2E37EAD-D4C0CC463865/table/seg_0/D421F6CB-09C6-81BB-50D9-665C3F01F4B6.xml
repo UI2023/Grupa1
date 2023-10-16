@@ -1,26 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2E25445-5F03-8DFE-D6C6-969C2AC0A78D" name="Racun">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:55:07 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D421F6CB-09C6-81BB-50D9-665C3F01F4B6" name="Prodaja_dela">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:43:07 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_29</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_racun" id="5A334EA7-FF25-DDB9-58FB-CD83F8455002">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:55:47 UTC</createdTime>
+<Column name="id_prodaja_delova" id="D72528A7-8440-FA8F-23FC-B9F07055024A">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:46:04 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_korisnika" id="E1F9E96B-23B9-8816-AA04-2F91A8E1BCA0">
+<Column name="id_ponude" id="8EE066A3-D397-0F40-F7FB-7C04BF3580BA">
 <createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:48:48 UTC</createdTime>
+<createdTime>2023-10-16 17:47:10 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +29,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CCE92F00-70BE-9641-E1A3-931B37C4E5BD" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
+<colAssociation fkAssociation="08A54D89-BA83-D203-9FF5-1BEE095EA307" referredColumn="6E97D145-12FC-2B8D-CA25-905609867A83"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F10C6773-9C08-4A5D-132C-4B507BAFB9D7" name="Racun_PK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 17:00:25 UTC</createdTime>
+<ind_PK_UK id="FAF20CA4-DEC0-8AE3-1CD5-70168413F750" name="Prodaja_dela_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-10-16 17:46:04 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
+<colUsage columnID="D72528A7-8440-FA8F-23FC-B9F07055024A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F7BE9438-F85C-5832-1CD9-19B3E4452E21" name="Racun_Korisnik_FK">
+<ind_PK_UK id="9F4719DB-55D1-29F0-3BCD-62988C13CF38" name="Prodaja_dela_Ponuda_FK">
 <createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:48:48 UTC</createdTime>
+<createdTime>2023-10-16 17:47:10 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E1F9E96B-23B9-8816-AA04-2F91A8E1BCA0"/>
+<colUsage columnID="8EE066A3-D397-0F40-F7FB-7C04BF3580BA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
