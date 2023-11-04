@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82A94D66-74FC-1125-364F-AA5C507F68DF" containerWithKeyObject="CF6C980F-A6CD-0D85-630A-DEA6A1CEBF35" localFKIndex="6785A9D5-9750-142D-F248-A6C2F18059D1" name="Model_Tip_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:54:46 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Tip</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0A200C5-48D1-3573-438B-D9EA321DF32B</referredTableID>
+<keyObject>E12F3439-0A26-5881-51F8-99F99EEEC290</keyObject>
+<referredKeyID>E12F3439-0A26-5881-51F8-99F99EEEC290</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30BF308D-516A-563F-7124-8D1565FAF88C" name="Paket">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:02:00 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paketa" id="8F2C6026-4C6B-2B22-002F-A23476DCE53F">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:04:46 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_model" id="AEF1CF71-16E5-C2D1-D341-793D0C6B90D0">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:10:00 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7D893C-A4C1-D482-5063-6AE28BDB64E6" referredColumn="235A28EF-939B-573C-469F-4F0A56F34B24"/>
+</associations>
+</Column>
+<Column name="model_godiste" id="871905B7-8C48-CF9C-841B-665CB7292EF6">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:10:00 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7D893C-A4C1-D482-5063-6AE28BDB64E6" referredColumn="3AACEBD8-2A06-BE3E-91E8-AFA795D63FAF"/>
+</associations>
+</Column>
+<Column name="id_opreme" id="2D4B6A5B-452B-25CD-02C1-D5230C1E991E">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:10:06 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D60DD8C1-2734-0AF7-3099-53FC1C83EB0F" referredColumn="55DCF28C-3451-24E6-E5E4-41EEF0B368AC"/>
+</associations>
+</Column>
+<Column name="id_marke" id="037993CA-1C74-D163-A243-B3E29B006478">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:11:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7D893C-A4C1-D482-5063-6AE28BDB64E6" referredColumn="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
+</associations>
+</Column>
+<Column name="id_firme" id="CBC051D9-21E7-33C2-CFBD-D11A3D911EBB">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:25:55 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B16A03D-2761-31EE-1F20-FEC8352059AE" referredColumn="01273C10-0C61-A4D4-1E80-306CD41D1B47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0FF254C-DF06-B449-A385-AC945EC51E12" name="Paket_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:04:46 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F2C6026-4C6B-2B22-002F-A23476DCE53F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF21732E-40A8-AEB3-EE13-7416A318C40A" name="Paket_Model_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:10:00 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF1CF71-16E5-C2D1-D341-793D0C6B90D0"/>
+<colUsage columnID="871905B7-8C48-CF9C-841B-665CB7292EF6"/>
+<colUsage columnID="037993CA-1C74-D163-A243-B3E29B006478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFA2C607-B296-B801-F9EA-9556DC920051" name="Paket_Oprema_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:10:06 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4B6A5B-452B-25CD-02C1-D5230C1E991E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="770F4200-C579-804D-B0D7-815F50EB6912" name="Paket_Firma_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:25:55 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC051D9-21E7-33C2-CFBD-D11A3D911EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D43DE374-4E56-565E-00DE-CDF218D64E20" containerWithKeyObject="CF6C980F-A6CD-0D85-630A-DEA6A1CEBF35" localFKIndex="C491032D-AB9B-C08E-7A77-725031DC225E" name="Model_Tip_Vozila_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:50:55 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Tip_Vozila</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5557212C-DB80-BFFE-C829-D601D8B69A7C</referredTableID>
+<keyObject>E3299B9A-80B1-88EC-D844-8679AD371ED6</keyObject>
+<referredKeyID>E3299B9A-80B1-88EC-D844-8679AD371ED6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

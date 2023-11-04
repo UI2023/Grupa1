@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE7524BA-9BDD-A3AB-F123-91876B9E15B4" containerWithKeyObject="2576B53B-CB87-C805-FFE5-EF4081E56CCA" localFKIndex="CE7087D6-88AA-EC20-E273-DAE4D264670E" name="Marka_Preduzece_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:42:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Preduzece</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C70E36D9-1E05-5EB8-3430-FADD137E5A3F</referredTableID>
+<keyObject>64BD976A-52D2-F289-B95B-40ED3F507772</keyObject>
+<referredKeyID>64BD976A-52D2-F289-B95B-40ED3F507772</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_preduzeca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4DBCA6B-1618-A2A1-E8F5-9679B5FADD0B" name="Cenovnik">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:12:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cenovnika" id="719B1651-05FE-ED75-3F94-A94BAB5C6746">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina" id="238676FC-3788-1EC7-AB23-322F1805F413">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="3FE4EC1E-DC09-D12D-17BD-27C39FC01345">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE190B32-FF7C-7F09-6948-9F0350CC4FC6" name="Cenovnik_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="719B1651-05FE-ED75-3F94-A94BAB5C6746"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

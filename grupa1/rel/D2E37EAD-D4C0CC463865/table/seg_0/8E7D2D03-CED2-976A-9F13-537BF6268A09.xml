@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E7D2D03-CED2-976A-9F13-537BF6268A09" name="Artikal">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:39:03 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_artikla" id="DF6BC986-25BF-7C0D-5959-4539A7420FF8">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:39:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paket_id_paketa" id="6FB91F81-BFF0-BD7F-1B1B-3B458AC2F4A9">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:12:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BD7DB84-C1DA-522A-2CD5-77AFA850A54F" referredColumn="8F2C6026-4C6B-2B22-002F-A23476DCE53F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9084F70C-D830-BF75-BEC9-8D2F8D970B66" name="Artikal_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:39:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF6BC986-25BF-7C0D-5959-4539A7420FF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5477241A-7CA4-7247-1AC5-FDCFC833FC9D" name="Artikal_Paket_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:12:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB91F81-BFF0-BD7F-1B1B-3B458AC2F4A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="467D2F20-E0F6-6218-E6F8-1D9830C40821" name="Prihodi">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:22:18 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prihoda" id="7ECB964F-2FB6-840C-1AA4-75564B1D6B60">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:22:38 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_racun" id="B66E6427-E99F-92E8-ED3A-09D1E5B8F523">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:23:00 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2158C883-1587-3006-D6DD-37E16913C650" referredColumn="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
+</associations>
+</Column>
+<Column name="racun_datum" id="CE5FE82C-A870-9CDA-1E5C-A646CA6BBF4F">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:23:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2158C883-1587-3006-D6DD-37E16913C650" referredColumn="4ACA6CF4-51F1-0130-9E0E-636E784B92B3"/>
+</associations>
+</Column>
+<Column name="Firma_id" id="85AF338A-9F8A-1FBB-1D63-84E833DE3193">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:24:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75BE657A-9792-DF29-92AD-FF08D9DAFD2A" referredColumn="01273C10-0C61-A4D4-1E80-306CD41D1B47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6D26A9F-5A21-C49F-68B5-CBD165744955" name="Prihodi_Racun_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:23:00 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B66E6427-E99F-92E8-ED3A-09D1E5B8F523"/>
+<colUsage columnID="CE5FE82C-A870-9CDA-1E5C-A646CA6BBF4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D76C753-276D-F6E8-4025-33AF6CB8A71B" name="Prihodi_Firma_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:24:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85AF338A-9F8A-1FBB-1D63-84E833DE3193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

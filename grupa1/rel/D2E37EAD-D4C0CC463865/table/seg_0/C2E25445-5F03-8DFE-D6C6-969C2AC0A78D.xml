@@ -32,6 +32,16 @@
 <colAssociation fkAssociation="CCE92F00-70BE-9641-E1A3-931B37C4E5BD" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
 </associations>
 </Column>
+<Column name="datum" id="4ACA6CF4-51F1-0130-9E0E-636E784B92B3">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:23:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F10C6773-9C08-4A5D-132C-4B507BAFB9D7" name="Racun_PK">
@@ -43,6 +53,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
+<colUsage columnID="4ACA6CF4-51F1-0130-9E0E-636E784B92B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F7BE9438-F85C-5832-1CD9-19B3E4452E21" name="Racun_Korisnik_FK">

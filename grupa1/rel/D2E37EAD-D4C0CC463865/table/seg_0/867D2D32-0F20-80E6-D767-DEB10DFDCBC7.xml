@@ -18,6 +18,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_artikla" id="903C9F56-0AD4-AAF0-2C18-B8E447B502D0">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:45 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1D60981-BBD5-D9E8-7F54-BE29E3D09095" referredColumn="DF6BC986-25BF-7C0D-5959-4539A7420FF8"/>
+</associations>
+</Column>
+<Column name="id_cenovnika" id="2701F454-22A4-B78C-D900-D472D8F2B5EC">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:50 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B169D92-8DB6-86FD-DB67-5A515DD0F43B" referredColumn="719B1651-05FE-ED75-3F94-A94BAB5C6746"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="ABCE884A-5303-649A-1A43-F261F3E3C101" name="Ponuda_PK">
@@ -29,6 +57,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6E97D145-12FC-2B8D-CA25-905609867A83"/>
+<colUsage columnID="2701F454-22A4-B78C-D900-D472D8F2B5EC"/>
+<colUsage columnID="903C9F56-0AD4-AAF0-2C18-B8E447B502D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED26A24A-BC81-B62C-74E9-03338208B303" name="Ponuda_Artikal_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:45 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="903C9F56-0AD4-AAF0-2C18-B8E447B502D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A7F02A1-7CD1-B27D-41B9-A0132F8B35D1" name="Ponuda_Cenovnik_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:14:50 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2701F454-22A4-B78C-D900-D472D8F2B5EC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

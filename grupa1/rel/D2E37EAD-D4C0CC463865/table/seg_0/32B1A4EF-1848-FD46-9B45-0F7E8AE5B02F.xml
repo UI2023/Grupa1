@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32B1A4EF-1848-FD46-9B45-0F7E8AE5B02F" name="Volan">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:32:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_volana" id="4FD4BAE5-2CE4-F8EB-A562-24AF946CA2D5">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:33:09 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip" id="ABAD2CB0-3F7D-9579-7BB6-4F57A68D9137">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:33:09 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="materijal" id="0DBC058A-C85B-8490-B3D0-91082EF57FB9">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:33:57 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="boja" id="5DE5B705-EA8B-492F-1267-D704C70D3562">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:33:57 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05911BAA-A004-AF01-B057-B31F94C1C3E1" name="Volan_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:33:09 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FD4BAE5-2CE4-F8EB-A562-24AF946CA2D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

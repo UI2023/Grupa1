@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF6C980F-A6CD-0D85-630A-DEA6A1CEBF35" name="Model_Automobila">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF6C980F-A6CD-0D85-630A-DEA6A1CEBF35" name="Model">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-13 16:08:13 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_marka" id="D38D3657-FF2D-DCAF-879D-8FB9BE505EB5">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:18:10 UTC</createdTime>
+<Column name="id_marke" id="CCA0B9F0-E68B-3311-656B-DFD88E8278AF">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:44:53 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AAFBF205-CB41-051B-F93B-81923278A05B" referredColumn="7F02F7F0-6DF3-A652-D192-79F6F6CADA3D"/>
+<colAssociation fkAssociation="B3E1B5A4-E4EB-EDD8-9BCF-C9F95EC18793" referredColumn="8A7AE644-B287-6AB4-7108-45142BE59B02"/>
 </associations>
 </Column>
-<Column name="id_karoserija" id="2258F526-73C0-182A-AC43-6A0DF9FD3113">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:23:14 UTC</createdTime>
+<Column name="id_tipa" id="0F4EFC50-AAD9-20D1-9630-E85B76EE1FD3">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:50:55 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,12 +43,99 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C85D1C87-926E-0922-EECA-68DC832DCCDC" referredColumn="CA0C2829-1D8F-FB5E-29C1-9F0A4C9BBB62"/>
+<colAssociation fkAssociation="D43DE374-4E56-565E-00DE-CDF218D64E20" referredColumn="CA0C2829-1D8F-FB5E-29C1-9F0A4C9BBB62"/>
+</associations>
+</Column>
+<Column name="id_tipa2" id="652561D9-78F8-B861-A7AA-4B5420A1D0E4">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:54:46 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82A94D66-74FC-1125-364F-AA5C507F68DF" referredColumn="8B681E19-4A47-AF31-B0AC-EC01FE11412D"/>
+</associations>
+</Column>
+<Column name="godiste" id="3AACEBD8-2A06-BE3E-91E8-AFA795D63FAF">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:58:22 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_motora" id="E1443AA4-1465-AC72-BC74-8A42DE07BCB6">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:59:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3D614E3-C2D8-337E-B479-89D41AAE0B32" referredColumn="3BA2D36F-F065-3D4D-B7A5-8D1D5A9F74C3"/>
+</associations>
+</Column>
+<Column name="senzori" id="5EB7F91E-FD06-60B5-0607-FEEB744D7ECF">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:09:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_radija" id="5887C0F2-BB60-6620-3EA5-D7FB032C9EAE">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:29:55 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2F87163-C381-DDEA-1AF4-7F59C4B5B602" referredColumn="6DF36809-D06D-1421-AA79-AB426BF4CBF5"/>
+</associations>
+</Column>
+<Column name="boja" id="3250A4FB-45AA-19D6-D977-ED1063B8E1EB">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:34:30 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_dimenzije" id="54D82FE7-4A6E-AA72-266C-8F8651A3962B">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:40:53 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C81C056C-FE2A-0FF2-0AF1-25B438EA8C0C" referredColumn="35B43753-BEC1-68CE-F7CF-A97AF3172A1F"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A5191DB8-A836-7A06-BF05-4D89204A9B8D" name="Model_Automobila_PK">
+<ind_PK_UK id="A5191DB8-A836-7A06-BF05-4D89204A9B8D" name="Model_PK">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-10-13 16:20:47 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -57,27 +144,68 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="235A28EF-939B-573C-469F-4F0A56F34B24"/>
-<colUsage columnID="D38D3657-FF2D-DCAF-879D-8FB9BE505EB5"/>
+<colUsage columnID="3AACEBD8-2A06-BE3E-91E8-AFA795D63FAF"/>
+<colUsage columnID="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E8FED638-D4FD-5E5F-11C6-520D4FCA0274" name="Model_Automobila_Marka_Automobila_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:18:10 UTC</createdTime>
+<ind_PK_UK id="4010E222-C009-0379-C106-C07D46AB60D1" name="Model_Marka_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:44:53 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D38D3657-FF2D-DCAF-879D-8FB9BE505EB5"/>
+<colUsage columnID="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="92BD3291-C140-6EC7-18C3-8044378B5418" name="Model_Automobila_Tip_Karoserije_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:23:14 UTC</createdTime>
+<ind_PK_UK id="C491032D-AB9B-C08E-7A77-725031DC225E" name="Model_Tip_Vozila_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:50:55 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2258F526-73C0-182A-AC43-6A0DF9FD3113"/>
+<colUsage columnID="0F4EFC50-AAD9-20D1-9630-E85B76EE1FD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6785A9D5-9750-142D-F248-A6C2F18059D1" name="Model_Tip_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:54:46 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="652561D9-78F8-B861-A7AA-4B5420A1D0E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00FAD173-99E2-67CB-B674-5F27D9542FCD" name="Model_Motor_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:59:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1443AA4-1465-AC72-BC74-8A42DE07BCB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57870123-D04B-5A2E-501A-B8ED59CB20E0" name="Model_Radio_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:29:55 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5887C0F2-BB60-6620-3EA5-D7FB032C9EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9F4C67E-29FD-939D-8795-8288B59C6BA0" name="Model_Dimenzije_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:40:53 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D82FE7-4A6E-AA72-266C-8F8651A3962B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

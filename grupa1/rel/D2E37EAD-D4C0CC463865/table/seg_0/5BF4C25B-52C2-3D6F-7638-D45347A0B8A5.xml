@@ -86,5 +86,12 @@
 <colUsage columnID="A4D606B3-749A-DE32-9C84-5B1CC3E2068F"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C626F87B-DC5E-5B94-6020-B22B58764299" name="menadzer">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:33:01 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>

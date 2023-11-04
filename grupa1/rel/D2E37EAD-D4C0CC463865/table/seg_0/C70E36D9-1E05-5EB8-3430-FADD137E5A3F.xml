@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C70E36D9-1E05-5EB8-3430-FADD137E5A3F" name="Preduzece">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:40:31 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_preduzeca" id="905FC576-C4A8-DC9C-6DAE-B4E017E920C7">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:41:13 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="A7214501-FE3E-963D-296E-2D9EE5D7A432">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:41:13 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64BD976A-52D2-F289-B95B-40ED3F507772" name="Preduzece_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:41:13 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="905FC576-C4A8-DC9C-6DAE-B4E017E920C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

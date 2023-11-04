@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4873406B-B10D-496F-5D2B-06B3F15235BC" name="Motor">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:55:30 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_motora" id="3BA2D36F-F065-3D4D-B7A5-8D1D5A9F74C3">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kubikaza" id="CB2B63F5-981B-0CBC-8C7C-DBB4CBDF2957">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="snaga" id="F9AA7F08-42A9-2511-F2AF-06A17FE13529">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gorivo" id="6CA05FF6-AA56-61A7-908E-61E1DDFC751F">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37D5B6AA-B19A-F17E-D2E4-77A42D04DC84" name="Motor_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BA2D36F-F065-3D4D-B7A5-8D1D5A9F74C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B74D89E8-1107-ED17-D825-FB6B95567734" containerWithKeyObject="435F7E4B-3FA3-CEAC-016A-1A41404DDDE9" localFKIndex="3218F63F-01FB-C133-F16E-56DAFD3BE7CA" name="Oprema_Volan_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:38:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Volan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32B1A4EF-1848-FD46-9B45-0F7E8AE5B02F</referredTableID>
+<keyObject>05911BAA-A004-AF01-B057-B31F94C1C3E1</keyObject>
+<referredKeyID>05911BAA-A004-AF01-B057-B31F94C1C3E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_volana</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

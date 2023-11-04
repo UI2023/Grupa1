@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3551C6F-F032-1146-A84A-1D78E2F8D34B" name="Sediste">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:30:58 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sedista" id="AE811326-79C0-9AAE-C41C-F5D9EE004955">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:32:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="materijal" id="7B346456-A48A-8B53-D1A0-07570095ED1F">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:32:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="boja" id="5D2CC94A-3CEF-88EE-5FD8-84E378409A13">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:32:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grejanje" id="A017C8E7-F1DC-E19F-7802-74D5BEEE6392">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:32:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maser" id="9E4A31E3-6A34-AEC2-4BE2-64B90721303D">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:32:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip" id="3CF06B09-5991-5BD8-A1E7-31B137BC5F37">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:33:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0685A5B-6D67-38B5-1711-8C56AAAB53B7" name="Sediste_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:34:12 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE811326-79C0-9AAE-C41C-F5D9EE004955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

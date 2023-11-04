@@ -56,6 +56,48 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_cenovnika" id="F904ECDA-0A2D-4F46-1851-14C35E026E63">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:15:12 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594FEC01-ABCE-DA7F-34D4-D28AC80DA88E" referredColumn="2701F454-22A4-B78C-D900-D472D8F2B5EC"/>
+</associations>
+</Column>
+<Column name="id_artikla" id="1A1445D0-8F67-83C7-7163-9ACC4AC2FA2C">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:15:12 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594FEC01-ABCE-DA7F-34D4-D28AC80DA88E" referredColumn="903C9F56-0AD4-AAF0-2C18-B8E447B502D0"/>
+</associations>
+</Column>
+<Column name="Racun_datum" id="4AA4ACC4-BF74-FAB2-BD66-29CE0C881AB3">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 21:23:52 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84056800-271F-67AA-34AE-65875912297C" referredColumn="4ACA6CF4-51F1-0130-9E0E-636E784B92B3"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5927CD36-9E84-AA2D-5069-2D6C7A4F93A0" name="Stavka_racuna_PK">
@@ -77,6 +119,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F96045BD-7A03-CAA5-C456-2D5F91723FE4"/>
+<colUsage columnID="4AA4ACC4-BF74-FAB2-BD66-29CE0C881AB3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9D6E984A-FDA5-96EE-70FE-BE001FED908E" name="Stavka_racuna_Ponuda_FK">
@@ -87,6 +130,8 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="269491D2-DCA4-3692-E537-A314B2236CAC"/>
+<colUsage columnID="F904ECDA-0A2D-4F46-1851-14C35E026E63"/>
+<colUsage columnID="1A1445D0-8F67-83C7-7163-9ACC4AC2FA2C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

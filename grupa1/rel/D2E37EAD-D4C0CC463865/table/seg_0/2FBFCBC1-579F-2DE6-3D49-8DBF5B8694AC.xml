@@ -56,9 +56,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E03CE7BD-25AA-301B-E4D8-30E0A552216A" referredColumn="D72528A7-8440-FA8F-23FC-B9F07055024A"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -91,15 +88,12 @@
 <colUsage columnID="92565B75-D9AE-0716-31A3-1AFE88B14095"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3992E6D9-5073-AC69-C2AD-4FEEF8818529" name="Delovi_Prodaja_dela_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:47:34 UTC</createdTime>
+<ind_PK_UK id="565868C5-4A0C-5099-5337-E909AD26AE0B" name="Delovi_Usluga_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:33:01 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="67070084-328D-DC66-B772-14844053E191"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

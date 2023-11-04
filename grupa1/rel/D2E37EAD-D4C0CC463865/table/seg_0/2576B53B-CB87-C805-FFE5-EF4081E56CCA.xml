@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2576B53B-CB87-C805-FFE5-EF4081E56CCA" name="Marka">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:39:36 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_marke" id="8A7AE644-B287-6AB4-7108-45142BE59B02">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:40:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_preduzeca" id="4D06D785-428D-4DB6-8DB5-BC0439E3D8FE">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:42:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE7524BA-9BDD-A3AB-F123-91876B9E15B4" referredColumn="905FC576-C4A8-DC9C-6DAE-B4E017E920C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F877E38C-3DFD-0C23-7367-56C29FC35118" name="Marka_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:40:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A7AE644-B287-6AB4-7108-45142BE59B02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE7087D6-88AA-EC20-E273-DAE4D264670E" name="Marka_Preduzece_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:42:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D06D785-428D-4DB6-8DB5-BC0439E3D8FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -28,9 +28,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F0E9D3CD-8CD0-4B4C-9A84-D7D0CF63A30A" referredColumn="9B3E6EA1-910B-9706-128A-6983B924C162"/>
-</associations>
 </Column>
 <Column name="id_grupe" id="6D835D1E-E33B-1B41-6583-812D9723EA70">
 <createdBy>Lana</createdBy>
@@ -83,16 +80,6 @@
 <indexColumnUsage>
 <colUsage columnID="60675347-7C29-0E21-CE81-8A5209B6E607"/>
 <colUsage columnID="6D835D1E-E33B-1B41-6583-812D9723EA70"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D173D252-E80E-6177-888A-0E9924A7630B" name="Model_Dela_Marka_Dela_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:28:19 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1937BE89-0D4A-B511-EDB4-6B15B86FEF4B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="306BCFEC-61D9-1813-DBC7-EC5E460420EB" name="Model_Dela_Grupa_Delova_FK">
