@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12DA57A7-014B-03BD-8568-4F440C81A1DF" name="Pozicije_Zaposlenih">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:09:17 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B8D766-B0E7-ED23-787E-E99FD58AC97D" name="Fizicko_Lice">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:45:20 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_13</ordsAlias>
+<ordsAlias>table_49</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_pozocija" id="4CD74093-A0B8-37F5-0F5A-371C2D2EFEA0">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:18:10 UTC</createdTime>
+<Column name="id_fizickog_lica" id="5CB47DD0-1157-D397-15A2-DFFFF8808A30">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:46:37 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,39 +18,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="E374A693-8DF6-E24A-2AE9-D000838703A0">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:18:38 UTC</createdTime>
+<Column name="ime" id="6E3B6DAB-B06F-B63C-90B8-9CBFF2CAE564">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:46:37 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="opis" id="C304191D-E20A-1588-08B4-76540A8C61B6">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:19:22 UTC</createdTime>
+<Column name="prezime" id="4D4A272B-1B7B-D750-E716-EAFC3B11533D">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:46:37 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="384B8F1F-3F68-117A-7AEE-40AF438930BE" name="Pozicije_zaposlenih_PK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:18:10 UTC</createdTime>
+<ind_PK_UK id="A54756A9-F500-B7DE-9379-312D3F1B1967" name="Fizicko_lice_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:46:37 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4CD74093-A0B8-37F5-0F5A-371C2D2EFEA0"/>
+<colUsage columnID="5CB47DD0-1157-D397-15A2-DFFFF8808A30"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

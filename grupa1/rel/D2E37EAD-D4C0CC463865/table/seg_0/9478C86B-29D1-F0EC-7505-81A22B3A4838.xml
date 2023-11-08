@@ -18,49 +18,47 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ime" id="E27E4B0F-0940-AA62-3FFF-909E391870A7">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:49:32 UTC</createdTime>
+<Column name="id_adrese" id="4895E9E6-C835-DEDE-CC31-4E7F46E358E8">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:37:01 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="020B51C5-A93A-E28E-DA4A-A386A6D926FF" referredColumn="3AF81322-3E50-7D7D-DA80-7B72F630E1ED"/>
+</associations>
 </Column>
-<Column name="prezime" id="B4D3DE77-E861-6668-FB75-47A0D80CA7B2">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:50:22 UTC</createdTime>
+<Column name="PIB" id="27B6E018-B666-A419-5EC1-CD59E8FB9EDE">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:47:19 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A3690E-8036-AE4A-5A4D-C00B981A5D79" referredColumn="987951C0-D29E-F05E-4EE3-B2C6AFC3E64F"/>
+</associations>
 </Column>
-<Column name="adresa" id="2502F245-0921-94C5-0E85-42B144FD584F">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:50:37 UTC</createdTime>
+<Column name="id_fizickog_lica" id="99BEF19A-52BE-A9BE-05A5-28BE24860711">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:47:23 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="telefon" id="40B6BA8B-5D90-E450-F7F2-B2F288348BDF">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-09 17:50:49 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39FFFDD2-CEC9-47C6-93CC-7780DE74F4AE" referredColumn="5CB47DD0-1157-D397-15A2-DFFFF8808A30"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -73,6 +71,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCDF6736-C390-8338-3699-2CC1383512AD" name="Korisnik_Adresa_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:37:01 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4895E9E6-C835-DEDE-CC31-4E7F46E358E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="203A7F90-59E9-CF5C-CEFB-157712F3099C" name="Korisnik_Pravno_lice_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:47:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27B6E018-B666-A419-5EC1-CD59E8FB9EDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3899D2DA-A317-9235-A438-062D60216485" name="Korisnik_Fizicko_lice_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:47:23 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99BEF19A-52BE-A9BE-05A5-28BE24860711"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

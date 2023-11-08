@@ -93,5 +93,12 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
+<ind_PK_UK id="20619A33-3DC6-D749-B3A7-2091422E5D56" name="menadzer">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:34:45 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 </indexes>
 </Table>

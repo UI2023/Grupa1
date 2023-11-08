@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D22D2B61-E329-E035-8244-07C422D6BB02" name="Tip_Racuna">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:41:49 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_47</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipa_racuna" id="FC65F56D-7938-B8C6-916A-7BEED47BABDA">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:42:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="19379BEE-D476-3D12-FE39-14C7156DDD8C">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:42:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA3AB954-87D4-2000-3C85-17B3024F8DC8" name="Tip_racuna_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:42:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC65F56D-7938-B8C6-916A-7BEED47BABDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

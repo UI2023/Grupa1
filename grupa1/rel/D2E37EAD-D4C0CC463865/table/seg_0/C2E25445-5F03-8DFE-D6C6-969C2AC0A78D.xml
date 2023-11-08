@@ -42,6 +42,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_nacina_placanja" id="B76B4D36-467B-B29D-C206-AC94395DE9C5">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:41:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43634C94-F966-2DF7-E789-003C08C02330" referredColumn="84D5AC98-D2CE-BA7B-E393-1F62E19DBE01"/>
+</associations>
+</Column>
+<Column name="id_tipa_racuna" id="5DF4CCF8-2F46-FCAC-F999-DECA068A7147">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:42:36 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F31FFC04-7BFB-7B71-8FBF-E566D72047CC" referredColumn="FC65F56D-7938-B8C6-916A-7BEED47BABDA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F10C6773-9C08-4A5D-132C-4B507BAFB9D7" name="Racun_PK">
@@ -64,6 +92,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E1F9E96B-23B9-8816-AA04-2F91A8E1BCA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C29516F-ABE4-F4CD-7F84-858E41DD7571" name="Racun_Nacin_placanja_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:41:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B76B4D36-467B-B29D-C206-AC94395DE9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C67B422A-03C9-EBFA-9883-A4203E760C90" name="Racun_Tip_racuna_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:42:36 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DF4CCF8-2F46-FCAC-F999-DECA068A7147"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

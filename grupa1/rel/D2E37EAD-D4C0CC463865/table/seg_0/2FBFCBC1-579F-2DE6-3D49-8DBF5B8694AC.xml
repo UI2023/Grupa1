@@ -77,6 +77,13 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
+<ind_PK_UK id="565868C5-4A0C-5099-5337-E909AD26AE0B" name="Delovi_Usluga_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-11-04 20:33:01 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
 <ind_PK_UK id="484A5B34-B9F6-E52F-7A0B-17B9C897494B" name="Delovi_Model_Dela_FK">
 <createdBy>Lana</createdBy>
 <createdTime>2023-10-16 17:36:24 UTC</createdTime>
@@ -88,9 +95,9 @@
 <colUsage columnID="92565B75-D9AE-0716-31A3-1AFE88B14095"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="565868C5-4A0C-5099-5337-E909AD26AE0B" name="Delovi_Usluga_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:33:01 UTC</createdTime>
+<ind_PK_UK id="DDAA5402-3778-E83F-E41B-136AE6F40D67" name="Delovi_Prodaja_dela_FK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:34:45 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EB952D3-0972-6B34-58AC-C32BE24C374C" name="Pravno_Lice">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:44:14 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PIB" id="987951C0-D29E-F05E-4EE3-B2C6AFC3E64F">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:45:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_firme" id="DFA92C63-8F00-66DB-571A-2C2235BFADD9">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:45:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0F3D944-E6BA-AB54-7732-B3993CBB8B8C" name="Pravno_lice_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:45:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="987951C0-D29E-F05E-4EE3-B2C6AFC3E64F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

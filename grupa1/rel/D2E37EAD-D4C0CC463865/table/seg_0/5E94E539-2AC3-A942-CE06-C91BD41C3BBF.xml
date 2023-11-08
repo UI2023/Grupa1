@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E94E539-2AC3-A942-CE06-C91BD41C3BBF" name="Nacin_Placanja">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:41:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nacina_placanja" id="84D5AC98-D2CE-BA7B-E393-1F62E19DBE01">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:41:37 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A9AC7D3-DA64-4BED-1860-1D5A5E8B22EB" name="Nacin_placanja_PK">
+<createdBy>Lana</createdBy>
+<createdTime>2023-11-06 14:41:37 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84D5AC98-D2CE-BA7B-E393-1F62E19DBE01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
