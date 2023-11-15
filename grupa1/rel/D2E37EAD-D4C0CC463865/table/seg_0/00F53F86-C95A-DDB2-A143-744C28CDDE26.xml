@@ -1,45 +1,43 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D22D2B61-E329-E035-8244-07C422D6BB02" name="Tip_Racuna">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:41:49 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00F53F86-C95A-DDB2-A143-744C28CDDE26" name="Korisnik_PravnoLice">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:25:44 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_47</ordsAlias>
+<ordsAlias>table_50</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_tipa_racuna" id="FC65F56D-7938-B8C6-916A-7BEED47BABDA">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:42:21 UTC</createdTime>
+<Column name="PIB" id="CAF8137C-35AB-8ACC-B2CC-12F953B60693">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:26:36 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="naziv" id="19379BEE-D476-3D12-FE39-14C7156DDD8C">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:42:21 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="naizv_pravnogLica" id="F0D00CCB-65CA-7BE2-9CDE-8A4B311B42D2">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:26:36 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DA3AB954-87D4-2000-3C85-17B3024F8DC8" name="Tip_racuna_PK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:42:21 UTC</createdTime>
+<ind_PK_UK id="811F8712-8B40-1CA4-393A-76565C683DB2" name="Korisnik_PravnoLice_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:26:36 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FC65F56D-7938-B8C6-916A-7BEED47BABDA"/>
+<colUsage columnID="CAF8137C-35AB-8ACC-B2CC-12F953B60693"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

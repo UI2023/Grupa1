@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Paket_id_paketa" id="6FB91F81-BFF0-BD7F-1B1B-3B458AC2F4A9">
+<Column name="id_vozilo" id="6FB91F81-BFF0-BD7F-1B1B-3B458AC2F4A9">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 21:12:02 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>

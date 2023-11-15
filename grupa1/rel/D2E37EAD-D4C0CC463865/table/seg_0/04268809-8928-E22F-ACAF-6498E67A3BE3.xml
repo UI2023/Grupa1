@@ -1,81 +1,78 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="712A14DE-8650-2AB9-24C6-7A5D32E76CD1" name="Kontakt_fizicko">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:39:45 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04268809-8928-E22F-ACAF-6498E67A3BE3" name="Adresav_Pravno">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:52:32 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_45</ordsAlias>
+<ordsAlias>table_44</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_korisnika" id="9BF90E31-29BF-2F7A-0DDE-32271F2FE093">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:40:43 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="broj" id="08247319-5D22-19BE-BAB2-97CC47DC02F5">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:40:37 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="email" id="D0B257A7-D8D2-5930-0251-30590E93098C">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:40:37 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_korisnika_fizikoLice" id="239AB3F3-8345-D5CE-16E3-732190087ECE">
+<Column name="ulica" id="D5777A12-7F74-5D84-F0D5-1B9DE1E3D383">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 12:09:57 UTC</createdTime>
+<createdTime>2023-11-14 11:52:32 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="50B25323-89AD-DB98-E88B-126D848D0BAF">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:52:32 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grad" id="143C43F8-DF6E-B281-4410-B686F2CA1C43">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:52:32 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pravnoLice_PIB" id="EE09568F-2418-BD33-4B65-FCF02E27756E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:56:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="681CEB4D-CCCA-A013-4D01-C05B5ED223DA" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
+<colAssociation fkAssociation="331E2440-46B6-1C6C-E08D-771A7E1F1CBA" referredColumn="CAF8137C-35AB-8ACC-B2CC-12F953B60693"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="721409E2-69E1-2992-E074-325FEAF6FE2F" name="Kontakt_PK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:40:37 UTC</createdTime>
+<ind_PK_UK id="176D7F30-70D9-12DE-F19C-88788F2F3017" name="Adresav_Pravno_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:56:58 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="08247319-5D22-19BE-BAB2-97CC47DC02F5"/>
-<colUsage columnID="9BF90E31-29BF-2F7A-0DDE-32271F2FE093"/>
+<colUsage columnID="EE09568F-2418-BD33-4B65-FCF02E27756E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="157346A9-6D39-1C5B-6011-AA43C6D41858" name="Kontakt_fizicko_">
+<ind_PK_UK id="9C75D8CB-5452-FEE4-8A5D-48ED0F8B2EDC" name="Adresav_Pravno_Korisnik_PravnoLice_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 12:09:57 UTC</createdTime>
+<createdTime>2023-11-14 11:56:41 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="239AB3F3-8345-D5CE-16E3-732190087ECE"/>
+<colUsage columnID="EE09568F-2418-BD33-4B65-FCF02E27756E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

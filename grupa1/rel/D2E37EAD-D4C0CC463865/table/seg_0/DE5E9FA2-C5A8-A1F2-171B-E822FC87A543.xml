@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2E25445-5F03-8DFE-D6C6-969C2AC0A78D" name="Racun">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE5E9FA2-C5A8-A1F2-171B-E822FC87A543" name="bankovniRacun_PravnoLice">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:55:07 UTC</createdTime>
+<createdTime>2023-11-14 11:28:52 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_51</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_racun" id="5A334EA7-FF25-DDB9-58FB-CD83F8455002">
+<Column name="id_BankovniRacun" id="035849F6-15C1-F1B3-4E72-9158EC4B315D">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 15:55:47 UTC</createdTime>
+<createdTime>2023-11-14 11:30:12 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,19 +18,33 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum" id="4ACA6CF4-51F1-0130-9E0E-636E784B92B3">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:23:44 UTC</createdTime>
+<Column name="Banka_id_banke" id="86A4251A-FC6E-2DF7-2A4F-643452CC7A1C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:32:23 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A67FCDE-C42E-8917-0C20-048F17C3D4F6" referredColumn="FE8384DA-5F5C-5768-7E14-B5F5E595B13C"/>
+</associations>
+</Column>
+<Column name="broj_bankovnogRacuna" id="6823EDD9-D47D-F847-74B6-BE5B2823D824">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:32:57 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_nacina_placanja" id="B76B4D36-467B-B29D-C206-AC94395DE9C5">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:41:44 UTC</createdTime>
+<Column name="Korisnik_PravnoLice_PIB" id="FC0344C8-BFAE-1B19-D878-1C35E06E9DD2">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:33:15 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,55 +53,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="43634C94-F966-2DF7-E789-003C08C02330" referredColumn="84D5AC98-D2CE-BA7B-E393-1F62E19DBE01"/>
-</associations>
-</Column>
-<Column name="Korisnik_FizickoLice_id_korisnika_fizikoLice" id="5BB95178-7184-84AE-E718-E2A52A42B146">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 11:42:24 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="86421304-F619-6D82-F8F2-8CBBF9DE1B55" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
+<colAssociation fkAssociation="31B13084-669D-8943-06F0-C4CF41ACD3DB" referredColumn="CAF8137C-35AB-8ACC-B2CC-12F953B60693"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F10C6773-9C08-4A5D-132C-4B507BAFB9D7" name="Racun_PK">
+<ind_PK_UK id="E3D878A4-523C-D810-77D7-3A08A6C47F87" name="bankovniRacun_PravnoLice_PK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 17:00:25 UTC</createdTime>
+<createdTime>2023-11-14 11:30:12 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
-<colUsage columnID="4ACA6CF4-51F1-0130-9E0E-636E784B92B3"/>
+<colUsage columnID="035849F6-15C1-F1B3-4E72-9158EC4B315D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2C29516F-ABE4-F4CD-7F84-858E41DD7571" name="Racun_Nacin_placanja_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:41:44 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B76B4D36-467B-B29D-C206-AC94395DE9C5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F2EA07C9-F33F-E58C-E1E0-AB83183845BB" name="Racun_Korisnik_FizickoLice_FK">
+<ind_PK_UK id="EFCEB7E6-57ED-5330-B146-60C642BE4140" name="bankovniRacun_PravnoLice_Banka_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 11:42:24 UTC</createdTime>
+<createdTime>2023-11-14 11:32:23 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5BB95178-7184-84AE-E718-E2A52A42B146"/>
+<colUsage columnID="86A4251A-FC6E-2DF7-2A4F-643452CC7A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73E98552-010F-B647-9441-5583A20FC81B" name="bankovniRacun_PravnoLice_Korisnik_PravnoLice_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:33:15 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0344C8-BFAE-1B19-D878-1C35E06E9DD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

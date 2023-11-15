@@ -32,20 +32,6 @@
 <colAssociation fkAssociation="B3E1B5A4-E4EB-EDD8-9BCF-C9F95EC18793" referredColumn="8A7AE644-B287-6AB4-7108-45142BE59B02"/>
 </associations>
 </Column>
-<Column name="id_tipa2" id="652561D9-78F8-B861-A7AA-4B5420A1D0E4">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:54:46 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="82A94D66-74FC-1125-364F-AA5C507F68DF" referredColumn="8B681E19-4A47-AF31-B0AC-EC01FE11412D"/>
-</associations>
-</Column>
 <Column name="godiste" id="3AACEBD8-2A06-BE3E-91E8-AFA795D63FAF">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 20:58:22 UTC</createdTime>
@@ -55,20 +41,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_motora" id="E1443AA4-1465-AC72-BC74-8A42DE07BCB6">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:59:41 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F3D614E3-C2D8-337E-B479-89D41AAE0B32" referredColumn="3BA2D36F-F065-3D4D-B7A5-8D1D5A9F74C3"/>
-</associations>
 </Column>
 <Column name="senzori" id="5EB7F91E-FD06-60B5-0607-FEEB744D7ECF">
 <createdBy>Sofija Savic</createdBy>
@@ -91,9 +63,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B2F87163-C381-DDEA-1AF4-7F59C4B5B602" referredColumn="6DF36809-D06D-1421-AA79-AB426BF4CBF5"/>
-</associations>
 </Column>
 <Column name="boja" id="3250A4FB-45AA-19D6-D977-ED1063B8E1EB">
 <createdBy>Sofija Savic</createdBy>
@@ -115,23 +84,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_karoserije" id="41832C76-9217-11BD-7005-10B05637B587">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:36:15 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C81C056C-FE2A-0FF2-0AF1-25B438EA8C0C" referredColumn="35B43753-BEC1-68CE-F7CF-A97AF3172A1F"/>
+<colAssociation fkAssociation="2FC64AB3-FD6B-47AD-C947-E9BC3F4E35FD" referredColumn="8B681E19-4A47-AF31-B0AC-EC01FE11412D"/>
 </associations>
 </Column>
-<Column name="id_tipa" id="31810B1A-CDB4-5B3E-4B57-FE9615C6EF49">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:54:44 UTC</createdTime>
+<Column name="osnovna_cena_vozilo" id="1BCCE601-ADDF-D6BE-49AB-9FB43E671280">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:11:20 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="163B403C-0CD5-B4DE-4A3A-C01C0998901A" referredColumn="CA0C2829-1D8F-FB5E-29C1-9F0A4C9BBB62"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -158,54 +134,28 @@
 <colUsage columnID="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6785A9D5-9750-142D-F248-A6C2F18059D1" name="Model_Tip_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:54:46 UTC</createdTime>
+<ind_PK_UK id="AF9FCFAA-B287-A7A3-670B-4A4A688F11CB" name="Model_Tip_Vozila_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:17:54 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="652561D9-78F8-B861-A7AA-4B5420A1D0E4"/>
-</indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="00FAD173-99E2-67CB-B674-5F27D9542FCD" name="Model_Motor_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:59:41 UTC</createdTime>
+<ind_PK_UK id="3B1DADAD-5A56-061D-15CC-BB4E9596B720" name="Model_Automobila_Marka_Automobila_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:17:54 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E1443AA4-1465-AC72-BC74-8A42DE07BCB6"/>
-</indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="57870123-D04B-5A2E-501A-B8ED59CB20E0" name="Model_Radio_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:29:55 UTC</createdTime>
+<ind_PK_UK id="B4F6200D-375C-D6C4-B03D-12774F8C972B" name="Model_Karoserija_vozila_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:36:15 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5887C0F2-BB60-6620-3EA5-D7FB032C9EAE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F9F4C67E-29FD-939D-8795-8288B59C6BA0" name="Model_Dimenzije_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:40:53 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="54D82FE7-4A6E-AA72-266C-8F8651A3962B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0BEF605A-C8FB-BCFF-4588-CA37C66C5FCD" name="Model_Tip_Vozila_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:54:44 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="31810B1A-CDB4-5B3E-4B57-FE9615C6EF49"/>
+<colUsage columnID="41832C76-9217-11BD-7005-10B05637B587"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

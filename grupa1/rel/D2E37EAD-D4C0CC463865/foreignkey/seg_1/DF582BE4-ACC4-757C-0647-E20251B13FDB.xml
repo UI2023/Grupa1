@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D60DD8C1-2734-0AF7-3099-53FC1C83EB0F" containerWithKeyObject="30BF308D-516A-563F-7124-8D1565FAF88C" localFKIndex="AFA2C607-B296-B801-F9EA-9556DC920051" name="Paket_Oprema_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:10:06 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="DF582BE4-ACC4-757C-0647-E20251B13FDB" containerWithKeyObject="98F46D5B-DB80-6502-3B96-B9724B002731" localFKIndex="0B57CFE8-4829-5125-4CD4-54DC1D89CD60" name="Mehanika_Oprema_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:08:09 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <referredTableLongName>Oprema</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -9,7 +9,7 @@
 <keyObject>CBB9BDBF-3C64-A4BB-BE5C-9DDBB4B2E764</keyObject>
 <referredKeyID>CBB9BDBF-3C64-A4BB-BE5C-9DDBB4B2E764</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_opreme</refColNames>
+<refColNames>id_opreme,id_modela</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

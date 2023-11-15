@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABA541DE-B392-5DF5-167C-DDFEE0A81F54" containerWithKeyObject="D47232B4-3AE9-58DF-E7C7-93DD3BC37D32" localFKIndex="306BCFEC-61D9-1813-DBC7-EC5E460420EB" name="Model_Dela_Grupa_Delova_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:33:54 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7B223DC-07BE-F28C-EF72-BAE789BBB608" containerWithKeyObject="2FBFCBC1-579F-2DE6-3D49-8DBF5B8694AC" localFKIndex="D935362D-F7A1-1473-31E7-EBF63B56FBC1" name="Delovi_Grupa_Delova_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:23:17 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <referredTableLongName>Grupa_Delova</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F45123EC-7522-8343-54F9-C719879D1F6C" containerWithKeyObject="435F7E4B-3FA3-CEAC-016A-1A41404DDDE9" localFKIndex="ED273126-E5A8-EEB6-EC19-44D8A9CFBA66" name="Oprema_Sediste_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:17 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DD58333-3FFE-E02B-F6D7-13005A6E19A3" containerWithKeyObject="E6E23756-237D-F74E-F61F-35E11AC5E845" localFKIndex="600A3408-65CA-8058-8B8E-B32EC52B1913" name="Enterijer_Sediste_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:02:04 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <referredTableLongName>Sediste</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -8,6 +8,20 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modela" id="41F5A7BF-5786-3618-5A04-06FB43FBB1FC">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:42:59 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A95BE316-8A4D-6DA6-AD24-B87BB8A4A48D" referredColumn="235A28EF-939B-573C-469F-4F0A56F34B24"/>
+</associations>
+</Column>
 <Column name="id_opreme" id="55DCF28C-3451-24E6-E5E4-41EEF0B368AC">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 21:08:23 UTC</createdTime>
@@ -28,9 +42,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_volana" id="C6A506F2-842A-02B9-4D96-15DBBD1BEE32">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:02 UTC</createdTime>
+<Column name="Model_godiste" id="D07AE26E-2207-5608-F2EB-FC3C320E386E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:42:59 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,12 +53,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B74D89E8-1107-ED17-D825-FB6B95567734" referredColumn="4FD4BAE5-2CE4-F8EB-A562-24AF946CA2D5"/>
+<colAssociation fkAssociation="A95BE316-8A4D-6DA6-AD24-B87BB8A4A48D" referredColumn="3AACEBD8-2A06-BE3E-91E8-AFA795D63FAF"/>
 </associations>
 </Column>
-<Column name="id_branika" id="C9E4E4C5-A24F-30EE-088C-C9A767A36868">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:06 UTC</createdTime>
+<Column name="Model_id_marke" id="CF557A34-CBF4-B7BC-E00D-A7F95598464A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:42:59 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,33 +67,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9532B023-BAE0-CA68-2474-9EDB47006854" referredColumn="1C95DE98-1506-3331-13EB-ABF74EA0E675"/>
-</associations>
-</Column>
-<Column name="id_menjaca" id="764434A7-642B-FAF7-005E-35848061BAB6">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:10 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="407E1CB9-443B-606F-C86D-D5FE312A343F" referredColumn="E2456897-6909-CFB3-27E0-7F5DAAFF7C47"/>
-</associations>
-</Column>
-<Column name="id_sedista" id="956669C9-9086-9144-9519-1C685998995F">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:17 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F45123EC-7522-8343-54F9-C719879D1F6C" referredColumn="AE811326-79C0-9AAE-C41C-F5D9EE004955"/>
+<colAssociation fkAssociation="A95BE316-8A4D-6DA6-AD24-B87BB8A4A48D" referredColumn="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
 </associations>
 </Column>
 </columns>
@@ -93,46 +81,19 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="55DCF28C-3451-24E6-E5E4-41EEF0B368AC"/>
+<colUsage columnID="41F5A7BF-5786-3618-5A04-06FB43FBB1FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3218F63F-01FB-C133-F16E-56DAFD3BE7CA" name="Oprema_Volan_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:02 UTC</createdTime>
+<ind_PK_UK id="751F67D2-80FA-0496-2B45-DFD931C5A86D" name="Oprema_Model_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:42:59 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C6A506F2-842A-02B9-4D96-15DBBD1BEE32"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="18E05674-3FCD-BB98-3994-995BF72C95AC" name="Oprema_Branik_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:06 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C9E4E4C5-A24F-30EE-088C-C9A767A36868"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="59DB244E-CB94-CCAE-5F1D-63B692F32E28" name="Oprema_Menjac_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:10 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="764434A7-642B-FAF7-005E-35848061BAB6"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="ED273126-E5A8-EEB6-EC19-44D8A9CFBA66" name="Oprema_Sediste_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:38:17 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="956669C9-9086-9144-9519-1C685998995F"/>
+<colUsage columnID="41F5A7BF-5786-3618-5A04-06FB43FBB1FC"/>
+<colUsage columnID="D07AE26E-2207-5608-F2EB-FC3C320E386E"/>
+<colUsage columnID="CF557A34-CBF4-B7BC-E00D-A7F95598464A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

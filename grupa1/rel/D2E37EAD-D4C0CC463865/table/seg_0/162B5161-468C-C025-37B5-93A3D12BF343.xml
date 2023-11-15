@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="162B5161-468C-C025-37B5-93A3D12BF343" name="Adresa">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="162B5161-468C-C025-37B5-93A3D12BF343" name="Adresa_FizkoLice">
 <createdBy>Lana</createdBy>
 <createdTime>2023-11-06 14:35:16 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -8,15 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_adrese" id="3AF81322-3E50-7D7D-DA80-7B72F630E1ED">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:35:44 UTC</createdTime>
+<Column name="id_korisnik_fizicko" id="8C1E204A-2356-5479-6670-B86E3F681A40">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:54:50 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6FF5789-4AC1-6E80-4B45-32FCD4AF6B66" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
+</associations>
 </Column>
 <Column name="ulica" id="900D57A6-1DB0-F16C-AB0B-3DB1F09142AA">
 <createdBy>Lana</createdBy>
@@ -50,15 +54,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="56F96AE0-0910-BCDC-1562-1B6D3B469494" name="Adresa_PK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:35:44 UTC</createdTime>
+<ind_PK_UK id="D4A0C060-AA66-3010-2953-CDAF66E23725" name="Adresa_FizkoLice_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:55:36 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3AF81322-3E50-7D7D-DA80-7B72F630E1ED"/>
+<colUsage columnID="8C1E204A-2356-5479-6670-B86E3F681A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EC1404C-ED69-8198-2676-C3FD13604EBA" name="Korisnik_FizickoLice_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:54:50 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C1E204A-2356-5479-6670-B86E3F681A40"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

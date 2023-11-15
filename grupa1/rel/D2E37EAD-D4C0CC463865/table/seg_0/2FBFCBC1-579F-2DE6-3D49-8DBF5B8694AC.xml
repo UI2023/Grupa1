@@ -28,9 +28,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7E42F654-FE91-AAEA-D83D-E91C8342DE04" referredColumn="60675347-7C29-0E21-CE81-8A5209B6E607"/>
-</associations>
 </Column>
 <Column name="id_grupe" id="92565B75-D9AE-0716-31A3-1AFE88B14095">
 <createdBy>Lana</createdBy>
@@ -42,9 +39,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7E42F654-FE91-AAEA-D83D-E91C8342DE04" referredColumn="6D835D1E-E33B-1B41-6583-812D9723EA70"/>
-</associations>
 </Column>
 <Column name="id_prodaja_delova" id="67070084-328D-DC66-B772-14844053E191">
 <createdBy>Lana</createdBy>
@@ -56,6 +50,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grupa_Delova_id_grupe" id="731FA2B2-5153-9419-60ED-CF24961B8D47">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:23:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B223DC-07BE-F28C-EF72-BAE789BBB608" referredColumn="345955F3-E5EB-01D0-5737-BA9375153D22"/>
+</associations>
+</Column>
+<Column name="Grupa_Delova_id_kategorije" id="D40F29D1-B09C-FE6B-7539-F55E5DB02846">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:23:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B223DC-07BE-F28C-EF72-BAE789BBB608" referredColumn="EBD06FE8-3E81-29E4-46FA-7E02CC50BF26"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -84,23 +106,37 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
-<ind_PK_UK id="484A5B34-B9F6-E52F-7A0B-17B9C897494B" name="Delovi_Model_Dela_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:36:24 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1CCA97FB-F10F-CC41-E817-E9E56E68E545"/>
-<colUsage columnID="92565B75-D9AE-0716-31A3-1AFE88B14095"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="DDAA5402-3778-E83F-E41B-136AE6F40D67" name="Delovi_Prodaja_dela_FK">
 <createdBy>Lana</createdBy>
 <createdTime>2023-11-06 14:34:45 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="91078579-6732-BF02-40A5-98425F78282A" name="Delovi_Usluga_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:17:54 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="8D97221C-5280-7CB0-6740-07D589244EE4" name="Delovi_Prodaja_dela_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:17:54 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="D935362D-F7A1-1473-31E7-EBF63B56FBC1" name="Delovi_Grupa_Delova_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 13:23:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731FA2B2-5153-9419-60ED-CF24961B8D47"/>
+<colUsage columnID="D40F29D1-B09C-FE6B-7539-F55E5DB02846"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

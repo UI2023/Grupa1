@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EB952D3-0972-6B34-58AC-C32BE24C374C" name="Pravno_Lice">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:44:14 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78E1A7CB-BB0F-E2E7-FFDC-3F7D5F76D08E" name="Banka">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:31:09 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_48</ordsAlias>
+<ordsAlias>table_53</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PIB" id="987951C0-D29E-F05E-4EE3-B2C6AFC3E64F">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:45:05 UTC</createdTime>
+<Column name="id_banke" id="FE8384DA-5F5C-5768-7E14-B5F5E595B13C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:31:46 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv_firme" id="DFA92C63-8F00-66DB-571A-2C2235BFADD9">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:45:05 UTC</createdTime>
+<Column name="naziv_banke" id="029DBC0D-45D1-0C85-4753-27190A4E4C2B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:31:46 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,15 +30,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D0F3D944-E6BA-AB54-7732-B3993CBB8B8C" name="Pravno_lice_PK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-11-06 14:45:05 UTC</createdTime>
+<ind_PK_UK id="3F556B50-FCCF-D80A-0236-709BB80B4592" name="Banka_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:31:46 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="987951C0-D29E-F05E-4EE3-B2C6AFC3E64F"/>
+<colUsage columnID="FE8384DA-5F5C-5768-7E14-B5F5E595B13C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

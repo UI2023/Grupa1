@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63A2B51F-464D-3E5C-CABB-308389A66350" name="racun_Gotovinski-PravnoLice">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:40:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gotovinski" id="2F42524C-DAB3-34E6-3307-6851FCFD6693">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:45:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_gotovniski" id="DACB2196-9B58-A38B-136D-ABBAD8CAEDA5">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:45:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_PravnoLice_PIB" id="991EDA4A-4757-8261-5439-9511375E1252">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:45:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ACFF9BE-1DEA-E12D-9788-B544304BE231" referredColumn="CAF8137C-35AB-8ACC-B2CC-12F953B60693"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0843B87-B05B-96FD-8556-75F2FBE59427" name="racun_Gotovinski-PravnoLice_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:45:19 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F42524C-DAB3-34E6-3307-6851FCFD6693"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FB2C324-69DE-2365-1EAD-4723D40A1277" name="racun_Gotovinski-PravnoLice_Korisnik_PravnoLice_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 11:45:48 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="991EDA4A-4757-8261-5439-9511375E1252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

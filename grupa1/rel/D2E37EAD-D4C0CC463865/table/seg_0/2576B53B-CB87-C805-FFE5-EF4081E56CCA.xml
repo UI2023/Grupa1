@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_preduzeca" id="4D06D785-428D-4DB6-8DB5-BC0439E3D8FE">
+<Column name="id_grupacija" id="4D06D785-428D-4DB6-8DB5-BC0439E3D8FE">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 20:42:04 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>

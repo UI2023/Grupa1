@@ -1,37 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D47232B4-3AE9-58DF-E7C7-93DD3BC37D32" name="Model_Dela">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:26:20 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6811BC2E-965C-081A-9949-CF43B1EB687B" name="Kontaktv_pravno">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:09:30 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_17</ordsAlias>
+<ordsAlias>table_45</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_model" id="60675347-7C29-0E21-CE81-8A5209B6E607">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:26:20 UTC</createdTime>
+<Column name="id_kontakta" id="8D052268-2A32-C6A8-5C1F-75B766720C60">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:09:30 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_marka_d" id="1937BE89-0D4A-B511-EDB4-6B15B86FEF4B">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:28:19 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_grupe" id="6D835D1E-E33B-1B41-6583-812D9723EA70">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:33:54 UTC</createdTime>
+<Column name="pravnoLice_PIB" id="5C80CA2D-A0DC-646E-D556-FC3D6CC24609">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:10:24 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,26 +30,33 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="ABA541DE-B392-5DF5-167C-DDFEE0A81F54" referredColumn="345955F3-E5EB-01D0-5737-BA9375153D22"/>
+<colAssociation fkAssociation="7A94FB20-7B58-FD2F-3751-9F1A5D698F48" referredColumn="CAF8137C-35AB-8ACC-B2CC-12F953B60693"/>
 </associations>
 </Column>
-<Column name="id_kategorije" id="0ECE1191-8B88-4B0E-0F84-8EE595318AAF">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:34:45 UTC</createdTime>
+<Column name="imePrezime" id="9ED6A6F1-A66F-6DBB-D990-D49DC68A416F">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:11:34 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj" id="76140528-2019-4B3E-3E7C-A17831E5AE7B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:09:30 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="ABA541DE-B392-5DF5-167C-DDFEE0A81F54" referredColumn="EBD06FE8-3E81-29E4-46FA-7E02CC50BF26"/>
-</associations>
 </Column>
-<Column name="naziv" id="C7618AB5-79B9-BE43-DD24-F0E479DF6AF7">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:40:55 UTC</createdTime>
+<Column name="email" id="1F4DB182-9F74-9C26-E28A-E3D9F351F270">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:09:30 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,27 +67,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="98124393-7123-A6A0-0E68-CF5433744E6A" name="Model_Dela_PK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:26:20 UTC</createdTime>
+<ind_PK_UK id="72F357AA-7097-1B8F-0CAC-AEDC29610A9F" name="Kontaktv1_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:09:30 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="60675347-7C29-0E21-CE81-8A5209B6E607"/>
-<colUsage columnID="6D835D1E-E33B-1B41-6583-812D9723EA70"/>
+<colUsage columnID="76140528-2019-4B3E-3E7C-A17831E5AE7B"/>
+<colUsage columnID="8D052268-2A32-C6A8-5C1F-75B766720C60"/>
+<colUsage columnID="5C80CA2D-A0DC-646E-D556-FC3D6CC24609"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="306BCFEC-61D9-1813-DBC7-EC5E460420EB" name="Model_Dela_Grupa_Delova_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:33:54 UTC</createdTime>
+<ind_PK_UK id="C94D2982-8617-BF1D-31A9-0C8D8BE862CC" name="Kontaktv_pravno_Korisnik_PravnoLice_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-11-14 12:10:24 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D835D1E-E33B-1B41-6583-812D9723EA70"/>
-<colUsage columnID="0ECE1191-8B88-4B0E-0F84-8EE595318AAF"/>
+<colUsage columnID="5C80CA2D-A0DC-646E-D556-FC3D6CC24609"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0A200C5-48D1-3573-438B-D9EA321DF32B" name="Tip">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0A200C5-48D1-3573-438B-D9EA321DF32B" name="Karoserija_vozila">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 20:53:22 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_tipa" id="8B681E19-4A47-AF31-B0AC-EC01FE11412D">
+<Column name="id_karoserije" id="8B681E19-4A47-AF31-B0AC-EC01FE11412D">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 20:54:16 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -30,7 +30,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E12F3439-0A26-5881-51F8-99F99EEEC290" name="Tip_PK">
+<ind_PK_UK id="E12F3439-0A26-5881-51F8-99F99EEEC290" name="Karoserija_PK">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-11-04 20:54:16 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
