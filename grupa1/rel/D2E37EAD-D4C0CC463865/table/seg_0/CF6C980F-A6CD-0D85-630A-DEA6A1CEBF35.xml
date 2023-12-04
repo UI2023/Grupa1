@@ -99,16 +99,6 @@
 <colAssociation fkAssociation="2FC64AB3-FD6B-47AD-C947-E9BC3F4E35FD" referredColumn="8B681E19-4A47-AF31-B0AC-EC01FE11412D"/>
 </associations>
 </Column>
-<Column name="osnovna_cena_vozilo" id="1BCCE601-ADDF-D6BE-49AB-9FB43E671280">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 13:11:20 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A5191DB8-A836-7A06-BF05-4D89204A9B8D" name="Model_PK">
@@ -134,20 +124,6 @@
 <colUsage columnID="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AF9FCFAA-B287-A7A3-670B-4A4A688F11CB" name="Model_Tip_Vozila_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 11:17:54 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-</ind_PK_UK>
-<ind_PK_UK id="3B1DADAD-5A56-061D-15CC-BB4E9596B720" name="Model_Automobila_Marka_Automobila_FK">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-11-14 11:17:54 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-</ind_PK_UK>
 <ind_PK_UK id="B4F6200D-375C-D6C4-B03D-12774F8C972B" name="Model_Karoserija_vozila_FK">
 <createdBy>Vasilije</createdBy>
 <createdTime>2023-11-14 12:36:15 UTC</createdTime>
@@ -157,6 +133,20 @@
 <indexColumnUsage>
 <colUsage columnID="41832C76-9217-11BD-7005-10B05637B587"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F90E7200-F76E-2E6B-9D8B-BA452101CD3A" name="Model_Automobila_Marka_Automobila_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 21:54:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="3B9D5A0D-4E9C-4555-710D-5BD73030BE87" name="Model_Tip_Vozila_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 21:54:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 </ind_PK_UK>
 </indexes>
 </Table>

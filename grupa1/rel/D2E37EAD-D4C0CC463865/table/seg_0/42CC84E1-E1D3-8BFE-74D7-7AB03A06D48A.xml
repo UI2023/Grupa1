@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4873406B-B10D-496F-5D2B-06B3F15235BC" name="Motor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42CC84E1-E1D3-8BFE-74D7-7AB03A06D48A" name="Deo_Prodaja">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:55:30 UTC</createdTime>
+<createdTime>2023-12-04 23:39:34 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_38</ordsAlias>
+<ordsAlias>table_58</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_motora" id="3BA2D36F-F065-3D4D-B7A5-8D1D5A9F74C3">
+<Column name="id_deo_prodaja" id="3F916D08-F379-19A9-1EBC-F679A2262B63">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:57:48 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kubikaza" id="CB2B63F5-981B-0CBC-8C7C-DBB4CBDF2957">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<createdTime>2023-12-04 23:40:11 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,19 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="snaga" id="F9AA7F08-42A9-2511-F2AF-06A17FE13529">
+<Column name="id_artikla" id="EDADBE4F-DBE7-FD42-8457-D49220ABFFD1">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:57:48 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="gorivo" id="6CA05FF6-AA56-61A7-908E-61E1DDFC751F">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<createdTime>2023-12-04 23:40:11 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,23 +28,37 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Deo_deo_id" id="66A91916-BD86-779A-E3B5-0C9A50EFEE2D">
+<Column name="Cenovnik_Deo_id_cenovnik_deo" id="BAA4B6AA-8CAE-1556-31D4-DFDDE18A532B">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:36:10 UTC</createdTime>
+<createdTime>2023-12-04 23:41:15 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="37E70807-DDB1-0120-FACE-46E441DCB847" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
+<colAssociation fkAssociation="0DF34E35-E26E-5D69-0A74-5699DD631F1D" referredColumn="57F00A51-1513-3DDC-8393-B9513A9C1B67"/>
 </associations>
 </Column>
-<Column name="Deo_id_kategorije" id="91BDE205-51EC-2328-0B87-F88BF7C5F92B">
+<Column name="Deo_deo_id" id="90AF12D8-D4CE-9926-629F-15033B6BDEC3">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:36:10 UTC</createdTime>
+<createdTime>2023-12-04 23:41:33 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ED6F8A2-9CCF-03B0-AED1-A659775BE6C7" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
+</associations>
+</Column>
+<Column name="Deo_id_kategorije" id="42E6FBA3-BF39-8E16-1CAF-99093F53F5DE">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:41:33 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,31 +67,41 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="37E70807-DDB1-0120-FACE-46E441DCB847" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
+<colAssociation fkAssociation="4ED6F8A2-9CCF-03B0-AED1-A659775BE6C7" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="37D5B6AA-B19A-F17E-D2E4-77A42D04DC84" name="Motor_PK">
+<ind_PK_UK id="046E7049-BEBC-1D92-80E0-F2C66ABCFBD2" name="Deo_Prodaja_PK">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 20:57:48 UTC</createdTime>
+<createdTime>2023-12-04 23:40:11 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3BA2D36F-F065-3D4D-B7A5-8D1D5A9F74C3"/>
+<colUsage columnID="3F916D08-F379-19A9-1EBC-F679A2262B63"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8E475203-ABBD-2E1C-A93D-4104E45E4429" name="Motor_Deo_FK">
+<ind_PK_UK id="8B3B6120-487C-7664-3BD6-46D1961C7F8D" name="Deo_Prodaja_Cenovnik_Deo_FK">
 <createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:36:10 UTC</createdTime>
+<createdTime>2023-12-04 23:41:15 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="66A91916-BD86-779A-E3B5-0C9A50EFEE2D"/>
-<colUsage columnID="91BDE205-51EC-2328-0B87-F88BF7C5F92B"/>
+<colUsage columnID="BAA4B6AA-8CAE-1556-31D4-DFDDE18A532B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9BD1BD5-00A1-8104-4E16-7DAA1C375452" name="Deo_Prodaja_Deo_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:41:33 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90AF12D8-D4CE-9926-629F-15033B6BDEC3"/>
+<colUsage columnID="42E6FBA3-BF39-8E16-1CAF-99093F53F5DE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

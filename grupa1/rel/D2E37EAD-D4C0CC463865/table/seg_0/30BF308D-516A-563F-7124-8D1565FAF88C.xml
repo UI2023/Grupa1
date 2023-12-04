@@ -60,6 +60,44 @@
 <colAssociation fkAssociation="AE7D893C-A4C1-D482-5063-6AE28BDB64E6" referredColumn="CCA0B9F0-E68B-3311-656B-DFD88E8278AF"/>
 </associations>
 </Column>
+<Column name="Oprema_id_opreme" id="4A2E7215-8031-1C07-46F6-05BE6F856792">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:06:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C2D494D-0D87-BAD7-3914-989D5136592D" referredColumn="55DCF28C-3451-24E6-E5E4-41EEF0B368AC"/>
+</associations>
+</Column>
+<Column name="id_artikla" id="D018E005-C94D-0B38-3837-553CEA1F2B2F">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:07:06 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cenovnik_Vozila_id_cenovnika" id="08E78152-0175-B6DF-F511-B7534B2C9104">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:18:30 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BCF42E1-EA16-2413-F7E4-91EC6F08A717" referredColumn="606B2D26-7CD4-226E-DB71-670ED695523E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E0FF254C-DF06-B449-A385-AC945EC51E12" name="Vozilo_PK">
@@ -83,6 +121,26 @@
 <colUsage columnID="AEF1CF71-16E5-C2D1-D341-793D0C6B90D0"/>
 <colUsage columnID="871905B7-8C48-CF9C-841B-665CB7292EF6"/>
 <colUsage columnID="037993CA-1C74-D163-A243-B3E29B006478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDE930C1-D0F9-AE1D-AE6C-D5D5867EB231" name="Vozilo_Oprema_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:06:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2E7215-8031-1C07-46F6-05BE6F856792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAA336C2-6D93-8C63-B406-70F13F884019" name="Vozilo_Cenovnik_Vozila_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:18:30 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E78152-0175-B6DF-F511-B7534B2C9104"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

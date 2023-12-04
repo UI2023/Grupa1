@@ -38,6 +38,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Deo_deo_id" id="4F352265-32E2-CDFA-B155-99070F184AC6">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:36:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C098FC71-D875-1741-54B6-AE60686E2F07" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
+</associations>
+</Column>
+<Column name="Deo_id_kategorije" id="F6C593B9-C449-6A26-08FD-CAEC91BACDF5">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:36:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C098FC71-D875-1741-54B6-AE60686E2F07" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="381A1E75-8C7F-616D-5A0C-2E3F42CF58F1" name="Branik_PK">
@@ -49,6 +77,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1C95DE98-1506-3331-13EB-ABF74EA0E675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E46963F7-0BB5-0801-B894-0D4B71ED57F0" name="Branik_Deo_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:36:21 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F352265-32E2-CDFA-B155-99070F184AC6"/>
+<colUsage columnID="F6C593B9-C449-6A26-08FD-CAEC91BACDF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26E2B513-453D-70C1-997E-68B651119A4D" name="Kategorija_Dela">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:09:50 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategorije" id="17D85082-FC7A-5DFA-13BB-DA3419C530FE">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:10:12 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC06FC43-7F94-5AE4-5E7D-82BD342A85B0" name="KategorijaDela_PK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:10:12 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D85082-FC7A-5DFA-13BB-DA3419C530FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

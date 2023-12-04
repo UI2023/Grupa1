@@ -56,6 +56,20 @@
 <colAssociation fkAssociation="86421304-F619-6D82-F8F2-8CBBF9DE1B55" referredColumn="1E0A5671-BBCA-A073-DB28-A7A769CD74E0"/>
 </associations>
 </Column>
+<Column name="Tip_Racuna_id_tipa_racuna" id="8B9698EA-1967-3DA7-DE84-613C5733CC06">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:46:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87C5471F-FB4E-3AE1-D1B8-75675DF9EE78" referredColumn="012B7C80-FFC3-1806-2FCC-1EE558B80978"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F10C6773-9C08-4A5D-132C-4B507BAFB9D7" name="Racun_PK">
@@ -88,6 +102,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5BB95178-7184-84AE-E718-E2A52A42B146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1952CB54-1E21-47BD-A233-1BF24FA83728" name="Racun_Tip_Racuna_FK">
+<createdBy>Sofija Savic</createdBy>
+<createdTime>2023-12-04 23:46:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9698EA-1967-3DA7-DE84-613C5733CC06"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
