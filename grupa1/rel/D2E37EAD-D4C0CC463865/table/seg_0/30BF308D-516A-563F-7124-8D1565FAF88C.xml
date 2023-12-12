@@ -98,6 +98,20 @@
 <colAssociation fkAssociation="8BCF42E1-EA16-2413-F7E4-91EC6F08A717" referredColumn="606B2D26-7CD4-226E-DB71-670ED695523E"/>
 </associations>
 </Column>
+<Column name="Cenovnik_Vozila_Cenovnik_id_cenovnik" id="264A310E-C931-903F-17DE-F64E8CE80CC7">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:06:10 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BCF42E1-EA16-2413-F7E4-91EC6F08A717" referredColumn="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E0FF254C-DF06-B449-A385-AC945EC51E12" name="Vozilo_PK">
@@ -141,6 +155,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="08E78152-0175-B6DF-F511-B7534B2C9104"/>
+<colUsage columnID="264A310E-C931-903F-17DE-F64E8CE80CC7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

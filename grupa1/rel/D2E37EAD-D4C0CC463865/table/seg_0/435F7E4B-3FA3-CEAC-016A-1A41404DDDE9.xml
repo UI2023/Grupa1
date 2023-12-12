@@ -38,34 +38,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Deo_deo_id" id="2933AB80-0B93-AEF9-8DC3-ED19B87FB425">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:27:03 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7B29691A-CC4E-A144-F266-6826EF59A19D" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
-</associations>
-</Column>
-<Column name="Deo_id_kategorije" id="036CCBD1-38FA-FE8E-5A21-E72C31262AA0">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:27:03 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7B29691A-CC4E-A144-F266-6826EF59A19D" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
-</associations>
-</Column>
 <Column name="Cenovnik_Opreme_id_cenovnika_opreme" id="DA8E7790-437A-FBA0-7E59-BA7DFAF20705">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-12-04 23:37:07 UTC</createdTime>
@@ -78,6 +50,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CD847FED-F344-25A2-78D4-0C52E06434CB" referredColumn="5DE0EB66-AA74-2FED-D228-AB04C2555903"/>
+</associations>
+</Column>
+<Column name="Cenovnik_Opreme_Cenovnik_id_cenovnik" id="2582D65C-8989-1B66-CE44-73867584477C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:06:04 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD847FED-F344-25A2-78D4-0C52E06434CB" referredColumn="756C9A3B-D8FB-F9BF-C3B3-A8B72D69F452"/>
 </associations>
 </Column>
 </columns>
@@ -93,17 +79,6 @@
 <colUsage columnID="55DCF28C-3451-24E6-E5E4-41EEF0B368AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DA9AD112-A9F4-1047-CF7F-3D25CAF7CA37" name="Oprema_Deo_FK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:27:03 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2933AB80-0B93-AEF9-8DC3-ED19B87FB425"/>
-<colUsage columnID="036CCBD1-38FA-FE8E-5A21-E72C31262AA0"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="58F58FD1-755E-1B90-E4E4-9F712D079849" name="Oprema_Cenovnik_Opreme_FK">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-12-04 23:37:07 UTC</createdTime>
@@ -112,6 +87,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DA8E7790-437A-FBA0-7E59-BA7DFAF20705"/>
+<colUsage columnID="2582D65C-8989-1B66-CE44-73867584477C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

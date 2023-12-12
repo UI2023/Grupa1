@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A397E530-4140-8491-5979-292D224683C0" containerWithKeyObject="1C302416-E028-3221-3E45-22E0E66F2F98" localFKIndex="A1B05C5C-4D61-44AD-44AE-8A861CA86FA2" name="Model_Motorcikl_Tip_Motorcikla_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:28:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Tip_Motorcikla</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0034AC92-8FDE-5580-FFF1-B8420C4810E5</referredTableID>
+<keyObject>6351DA6D-6DF7-DAF9-CE54-07EDED26F34F</keyObject>
+<referredKeyID>6351DA6D-6DF7-DAF9-CE54-07EDED26F34F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tip</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

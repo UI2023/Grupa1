@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena_opreme" id="8F66DD48-8247-B643-30EB-3635FE4C0503">
+<Column name="cena" id="8F66DD48-8247-B643-30EB-3635FE4C0503">
 <createdBy>Sofija Savic</createdBy>
 <createdTime>2023-12-04 23:20:01 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
@@ -28,16 +28,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="godina" id="044F4B55-706C-C219-4590-61F996037EA2">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:20:01 UTC</createdTime>
+<Column name="Cenovnik_id_cenovnik" id="756C9A3B-D8FB-F9BF-C3B3-A8B72D69F452">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:05:42 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56AB1C33-2E03-026A-2F63-6460CF7D0077" referredColumn="7F515362-2F77-6545-716B-539D349C83D0"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -50,6 +53,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5DE0EB66-AA74-2FED-D228-AB04C2555903"/>
+<colUsage columnID="756C9A3B-D8FB-F9BF-C3B3-A8B72D69F452"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="103AF852-C98B-4CB4-9A1D-3340595B54BB" name="Cenovnik_Opreme_Cenovnik_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:05:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="756C9A3B-D8FB-F9BF-C3B3-A8B72D69F452"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

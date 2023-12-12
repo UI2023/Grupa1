@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAC0AF39-CE32-7609-EFF8-9FB15ACCE8E7" name="Deo_Oprema_Vozilo">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:01:02 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Deo_deo_id" id="EB16BCD7-AFE8-E7B5-0FC1-FEE18BDB34AF">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:01:35 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4163ED-5530-9EF0-EEDF-5D4245A054F1" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
+</associations>
+</Column>
+<Column name="Deo_id_kategorije" id="E0F80881-A544-6015-C376-5F1FE2FD3461">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:01:35 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4163ED-5530-9EF0-EEDF-5D4245A054F1" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
+</associations>
+</Column>
+<Column name="Oprema_id_opreme" id="39441F12-C292-E8A8-C8F0-ACC6250E612B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:01:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85FB5F4E-21EF-A613-A610-629DE0D4803F" referredColumn="55DCF28C-3451-24E6-E5E4-41EEF0B368AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="857C674B-653F-E621-3C39-91E9F3F13FCA" name="Deo_Oprema_Deo_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:01:35 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB16BCD7-AFE8-E7B5-0FC1-FEE18BDB34AF"/>
+<colUsage columnID="E0F80881-A544-6015-C376-5F1FE2FD3461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD2C8351-19FA-F748-78F0-E56E1CD974EB" name="Deo_Oprema_Oprema_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:01:42 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39441F12-C292-E8A8-C8F0-ACC6250E612B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

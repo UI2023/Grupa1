@@ -1,36 +1,37 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE8E97F-2B17-6BBD-6B82-6541871BB474" name="Cenovnik_Vozila">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:16:46 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C62E3647-812B-F2CB-D012-450532EC06DF" name="Cenovnik_Motocikl">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:40:28 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_56</ordsAlias>
+<ordsAlias>table_72</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_cenovnika" id="606B2D26-7CD4-226E-DB71-670ED695523E">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:18:00 UTC</createdTime>
+<Column name="id_moto_cena" id="EBAEF828-6E94-B119-1106-D7C1260B00BA">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:41:09 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="31F36A5C-E296-3033-2211-0DEBBC4C90B6">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:18:00 UTC</createdTime>
+<Column name="cena" id="DE4DBDDE-13DF-27F1-BC22-AED2FDDF45EE">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:41:09 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cenovnik_id_cenovnik" id="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E">
+<Column name="Cenovnik_id_cenovnik" id="5E05D155-2F72-D8A7-FA00-7498A3E6E660">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-12-12 12:05:48 UTC</createdTime>
+<createdTime>2023-12-12 12:45:42 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,31 +40,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="632C835A-7374-97D1-60AA-0362A888CA8E" referredColumn="7F515362-2F77-6545-716B-539D349C83D0"/>
+<colAssociation fkAssociation="7DAF3389-0823-4044-A871-E2CFBCF26FD9" referredColumn="7F515362-2F77-6545-716B-539D349C83D0"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A501A693-8121-F657-35AE-8FC63248A9D2" name="Cenovnik_Vozila_PK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:18:00 UTC</createdTime>
+<ind_PK_UK id="D95BC63B-7D13-4125-B5D8-64CBF67F1943" name="Cenovnik_Motocikl_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:41:09 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="606B2D26-7CD4-226E-DB71-670ED695523E"/>
-<colUsage columnID="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E"/>
+<colUsage columnID="EBAEF828-6E94-B119-1106-D7C1260B00BA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1D3825F1-2BBF-37B7-23E2-BA9E1FD5E81C" name="Cenovnik_Vozila_Cenovnik_FK">
+<ind_PK_UK id="AE9791B1-5366-8438-5AC9-E422BA140F25" name="Cenovnik_Motocikl_Cenovnik_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-12-12 12:05:48 UTC</createdTime>
+<createdTime>2023-12-12 12:45:42 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E"/>
+<colUsage columnID="5E05D155-2F72-D8A7-FA00-7498A3E6E660"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

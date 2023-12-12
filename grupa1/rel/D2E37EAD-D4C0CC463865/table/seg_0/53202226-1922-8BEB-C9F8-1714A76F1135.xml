@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53202226-1922-8BEB-C9F8-1714A76F1135" name="Motocikl_">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:12:35 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_motocikl" id="DE20A715-5E1A-A2F1-2FC5-3706F13F92DA">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:15:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_artikla" id="3248369C-99FE-EEC5-ACB5-AFB2EB02D973">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:16:01 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_Motorcikl_id_modelaM" id="B05F5E4E-7BBF-E2AE-AD51-3616928EF42A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:27:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9786749-8BC2-133D-25A1-8886F20E2988" referredColumn="6B892EBD-E755-3C46-F25F-C13013BD1C09"/>
+</associations>
+</Column>
+<Column name="Cenovnik_Motocikl_id_moto_cena" id="DA104CD2-2366-EC19-97B6-3F04CB853842">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:45:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2076D2E1-12C7-AEAB-515C-77DE476A256D" referredColumn="EBAEF828-6E94-B119-1106-D7C1260B00BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67DCF57C-84BE-BDC6-6CF9-CDD7565FDB7F" name="Motocikl__PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:15:44 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE20A715-5E1A-A2F1-2FC5-3706F13F92DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1D9C877-B667-0391-C096-BAC02A116596" name="Motocikl__Model_Motorcikl_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:27:28 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B05F5E4E-7BBF-E2AE-AD51-3616928EF42A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36340783-D683-CFCC-AE1E-DC80FF371D81" name="Motocikl__Cenovnik_Motocikl_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:45:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA104CD2-2366-EC19-97B6-3F04CB853842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

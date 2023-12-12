@@ -70,6 +70,20 @@
 <colAssociation fkAssociation="4ED6F8A2-9CCF-03B0-AED1-A659775BE6C7" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
 </associations>
 </Column>
+<Column name="Cenovnik_Deo_Cenovnik_id_cenovnik" id="80B497D0-05E8-B8F8-AF54-50835CF8A01E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:05:58 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DF34E35-E26E-5D69-0A74-5699DD631F1D" referredColumn="16AFD61E-B8EE-87B2-EA74-AA29EB2411C1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="046E7049-BEBC-1D92-80E0-F2C66ABCFBD2" name="Deo_Prodaja_PK">
@@ -91,6 +105,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BAA4B6AA-8CAE-1556-31D4-DFDDE18A532B"/>
+<colUsage columnID="80B497D0-05E8-B8F8-AF54-50835CF8A01E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A9BD1BD5-00A1-8104-4E16-7DAA1C375452" name="Deo_Prodaja_Deo_FK">

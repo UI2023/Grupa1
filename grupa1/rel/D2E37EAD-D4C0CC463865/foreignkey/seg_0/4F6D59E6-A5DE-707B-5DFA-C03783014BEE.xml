@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F6D59E6-A5DE-707B-5DFA-C03783014BEE" containerWithKeyObject="F5F8CFD8-A446-495F-1F8B-B97364D73376" localFKIndex="087B2553-3C91-71B5-D61D-75BF0AAD1341" name="Deo_Oprema_Motorcikl_Motorcikl_Oprema_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:38:50 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<referredTableLongName>Motorcikl_Oprema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3ED2531E-43AD-167A-630B-A30093E1E7AF</referredTableID>
+<keyObject>A637F7B6-3A64-E238-7568-0AFA810EC048</keyObject>
+<referredKeyID>A637F7B6-3A64-E238-7568-0AFA810EC048</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_moto_oprema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

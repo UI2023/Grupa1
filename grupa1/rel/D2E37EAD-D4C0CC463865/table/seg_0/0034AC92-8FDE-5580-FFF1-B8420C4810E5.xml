@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3645F36A-2BD9-1152-3202-3BE1EB5E3A57" name="Prodaja_Automobila">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0034AC92-8FDE-5580-FFF1-B8420C4810E5" name="Tip_Motorcikla">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:53:32 UTC</createdTime>
+<createdTime>2023-12-12 12:19:42 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_21</ordsAlias>
+<ordsAlias>table_60</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_prodaje_automobila" id="E6D3436C-6E87-813B-A8CF-CAA01FF5C7F8">
+<Column name="id_tip" id="0428DA65-51CB-7259-79BF-CAF99660A7A4">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:56:33 UTC</createdTime>
+<createdTime>2023-12-12 12:20:57 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,21 +18,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_ponude" id="A48A26E9-0EA7-775E-865F-0CA19448776B">
+<Column name="broj_tockova" id="9D7024D2-A001-292D-CF03-EA61B63679E9">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:56:43 UTC</createdTime>
+<createdTime>2023-12-12 12:20:57 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="cena" id="BD264315-3507-E39D-E359-D8498FE1C6C0">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:09:56 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -41,15 +31,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4B2DE85B-AAB9-7B28-A6DF-33C98E30C50A" name="Prodaja_Automobila_PK">
+<ind_PK_UK id="6351DA6D-6DF7-DAF9-CE54-07EDED26F34F" name="Tip_Motorcikla_PK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:57:31 UTC</createdTime>
+<createdTime>2023-12-12 12:20:57 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6D3436C-6E87-813B-A8CF-CAA01FF5C7F8"/>
+<colUsage columnID="0428DA65-51CB-7259-79BF-CAF99660A7A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

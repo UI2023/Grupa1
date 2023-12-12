@@ -1,36 +1,37 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE8E97F-2B17-6BBD-6B82-6541871BB474" name="Cenovnik_Vozila">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:16:46 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3EBE995-236E-2696-27C5-129D6B453D0A" name="Tip_Vesanja">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:34:36 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_56</ordsAlias>
+<ordsAlias>table_69</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_cenovnika" id="606B2D26-7CD4-226E-DB71-670ED695523E">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:18:00 UTC</createdTime>
+<Column name="id_tipa" id="47B75EAE-27CA-5D43-41B1-91FB3D7E01B4">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:35:05 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="65712606-023F-182C-4BAC-1A496338C45F">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:35:05 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="31F36A5C-E296-3033-2211-0DEBBC4C90B6">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:18:00 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Cenovnik_id_cenovnik" id="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E">
+<Column name="Vesanje_id_vesanje" id="7D9C8DBA-9D91-0028-1272-BA2F939507FD">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-12-12 12:05:48 UTC</createdTime>
+<createdTime>2023-12-12 12:36:46 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,31 +40,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="632C835A-7374-97D1-60AA-0362A888CA8E" referredColumn="7F515362-2F77-6545-716B-539D349C83D0"/>
+<colAssociation fkAssociation="A18A6A94-1FAA-8C81-AA1D-0183DB41C793" referredColumn="AC4B7A10-3543-5A48-6592-6CED470AACF8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A501A693-8121-F657-35AE-8FC63248A9D2" name="Cenovnik_Vozila_PK">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-12-04 23:18:00 UTC</createdTime>
+<ind_PK_UK id="76690B5C-CAFD-F85D-893A-B35BEE3EEEBA" name="Tip_Vesanja_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:35:05 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="606B2D26-7CD4-226E-DB71-670ED695523E"/>
-<colUsage columnID="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E"/>
+<colUsage columnID="47B75EAE-27CA-5D43-41B1-91FB3D7E01B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1D3825F1-2BBF-37B7-23E2-BA9E1FD5E81C" name="Cenovnik_Vozila_Cenovnik_FK">
+<ind_PK_UK id="13ADE7A4-E203-0410-12ED-51C17A69CB59" name="Tip_Vesanja_Vesanje_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-12-12 12:05:48 UTC</createdTime>
+<createdTime>2023-12-12 12:36:46 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="17B7E0E2-A13C-50FB-8835-6B29A6F91B1E"/>
+<colUsage columnID="7D9C8DBA-9D91-0028-1272-BA2F939507FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

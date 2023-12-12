@@ -38,9 +38,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="20EB0235-4C7B-CF45-06F8-A320F0ED55C7" referredColumn="6E97D145-12FC-2B8D-CA25-905609867A83"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -53,16 +50,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EEBCA557-30CB-A5A7-70C3-192BA7660208"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F7423AB3-EDAD-9C6F-7918-0CF086954783" name="Prodaja_Motocikla_Ponuda_FK">
-<createdBy>Lana</createdBy>
-<createdTime>2023-10-16 17:15:19 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FD7FFA33-854D-6599-58F5-DCE8BF662B0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

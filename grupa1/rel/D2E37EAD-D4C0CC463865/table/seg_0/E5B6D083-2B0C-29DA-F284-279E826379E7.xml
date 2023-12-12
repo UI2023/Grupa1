@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5B6D083-2B0C-29DA-F284-279E826379E7" name="Izduv">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:31:17 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_66</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_izduv" id="8CA93904-22E0-167B-85DE-CF566333EE5F">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:32:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marka_izduv" id="BF269A9D-9271-CF5B-FF1B-EF0B6540FECF">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:32:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deo_deo_id" id="7F2D774E-DB50-9610-2C35-6028C6554738">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:36:33 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBF1052D-976F-AC17-F682-C10E1AE69AA0" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
+</associations>
+</Column>
+<Column name="Deo_id_kategorije" id="B64412E6-D3CF-C010-895D-6D7C60C0A7E7">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:36:33 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBF1052D-976F-AC17-F682-C10E1AE69AA0" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7735AEF-9FFD-4FBE-763F-E4A37827BB2A" name="Izduv_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:32:41 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CA93904-22E0-167B-85DE-CF566333EE5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6C412B3-F37F-13C9-40E0-95C52DB58EC0" name="Izduv_Deo_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:36:33 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F2D774E-DB50-9610-2C35-6028C6554738"/>
+<colUsage columnID="B64412E6-D3CF-C010-895D-6D7C60C0A7E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

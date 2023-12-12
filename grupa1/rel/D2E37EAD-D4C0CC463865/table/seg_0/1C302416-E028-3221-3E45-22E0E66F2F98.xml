@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="432C8DD6-E24F-C1CF-FB07-AD54A7A411D5" name="Stavka_Racuna">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C302416-E028-3221-3E45-22E0E66F2F98" name="Model_Motorcikl">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:59:23 UTC</createdTime>
+<createdTime>2023-12-12 12:16:25 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<ordsAlias>table_25</ordsAlias>
+<ordsAlias>table_58</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_stavke" id="9DDCA2AC-B91A-3343-3E9B-42DE77548E57">
+<Column name="id_modelaM" id="6B892EBD-E755-3C46-F25F-C13013BD1C09">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:59:54 UTC</createdTime>
+<createdTime>2023-12-12 12:17:40 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,69 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_racun" id="F96045BD-7A03-CAA5-C456-2D5F91723FE4">
+<Column name="dimenzija" id="28F544E2-0227-18B7-1F03-FE70131ED677">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 17:00:31 UTC</createdTime>
+<createdTime>2023-12-12 12:19:06 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="84056800-271F-67AA-34AE-65875912297C" referredColumn="5A334EA7-FF25-DDB9-58FB-CD83F8455002"/>
-</associations>
-</Column>
-<Column name="kolicina" id="5FB6BADB-CEF8-96AF-21D8-16E4BAFAC87D">
-<createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 17:05:25 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_cenovnika" id="F904ECDA-0A2D-4F46-1851-14C35E026E63">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:15:12 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_artikla" id="1A1445D0-8F67-83C7-7163-9ACC4AC2FA2C">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:15:12 UTC</createdTime>
+<Column name="boja" id="6D290E80-E75F-4820-8828-793D8FB0C397">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:19:06 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Racun_datum" id="4AA4ACC4-BF74-FAB2-BD66-29CE0C881AB3">
-<createdBy>Sofija Savic</createdBy>
-<createdTime>2023-11-04 21:23:52 UTC</createdTime>
-<ownerDesignName>grupa1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="84056800-271F-67AA-34AE-65875912297C" referredColumn="4ACA6CF4-51F1-0130-9E0E-636E784B92B3"/>
-</associations>
-</Column>
-<Column name="Cenovnik_id_cenovnik" id="2F21B5DA-39F0-CD39-8BEF-78ADFC26A468">
+<Column name="Marka_Moto_id_marka" id="78FAB1F1-BD9A-4C2B-03A0-9AC5E2E611F7">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-12-12 12:06:48 UTC</createdTime>
+<createdTime>2023-12-12 12:28:19 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,41 +51,78 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8F668C39-F224-208D-F9D7-F76BE53ADD09" referredColumn="7F515362-2F77-6545-716B-539D349C83D0"/>
+<colAssociation fkAssociation="2D66060E-5953-B026-26E1-1A28B41FF1F6" referredColumn="0820DB84-B161-CB1C-CCFF-D64B5C2F0D2C"/>
+</associations>
+</Column>
+<Column name="Kategorija_Motorcikl_id_kategorija" id="1D34F855-1FFC-3933-F1E0-9B139776D365">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:28:24 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EC3A02C-7946-1B81-6E3F-9EB3AB2978EC" referredColumn="926F0238-E636-F74A-A20B-43036A06173F"/>
+</associations>
+</Column>
+<Column name="Tip_Motorcikla_id_tip" id="A2C94949-51A0-B2FC-7A1B-B079E26745ED">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:28:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A397E530-4140-8491-5979-292D224683C0" referredColumn="0428DA65-51CB-7259-79BF-CAF99660A7A4"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5927CD36-9E84-AA2D-5069-2D6C7A4F93A0" name="Stavka_racuna_PK">
+<ind_PK_UK id="E6757BA2-0872-097A-982B-7B3A773B2D34" name="Model_Motorcikl_PK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 16:59:54 UTC</createdTime>
+<createdTime>2023-12-12 12:17:40 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1A1445D0-8F67-83C7-7163-9ACC4AC2FA2C"/>
+<colUsage columnID="6B892EBD-E755-3C46-F25F-C13013BD1C09"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D615493E-8991-5D59-F32E-4242A26AE699" name="Stavka_racuna_Racun_FK">
+<ind_PK_UK id="19587387-ED79-4125-8C7E-70434F5428F7" name="Model_Motorcikl_Marka_Moto_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-10-13 17:00:31 UTC</createdTime>
+<createdTime>2023-12-12 12:28:19 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F96045BD-7A03-CAA5-C456-2D5F91723FE4"/>
-<colUsage columnID="4AA4ACC4-BF74-FAB2-BD66-29CE0C881AB3"/>
+<colUsage columnID="78FAB1F1-BD9A-4C2B-03A0-9AC5E2E611F7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="40A2E0D9-6788-303B-F68F-3B8754D07510" name="Stavka_Racuna_Cenovnik_FK">
+<ind_PK_UK id="809CD2C4-B7FE-56FB-5FD3-A0122188A48E" name="Model_Motorcikl_Kategorija_Motorcikl_FK">
 <createdBy>Vasilije</createdBy>
-<createdTime>2023-12-12 12:06:47 UTC</createdTime>
+<createdTime>2023-12-12 12:28:24 UTC</createdTime>
 <ownerDesignName>grupa1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2F21B5DA-39F0-CD39-8BEF-78ADFC26A468"/>
+<colUsage columnID="1D34F855-1FFC-3933-F1E0-9B139776D365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1B05C5C-4D61-44AD-44AE-8A861CA86FA2" name="Model_Motorcikl_Tip_Motorcikla_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:28:29 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2C94949-51A0-B2FC-7A1B-B079E26745ED"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

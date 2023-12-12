@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B94EAD97-6428-D2A7-06A6-1F469EE6FB1C" name="Tockovi">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:29:54 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tocak" id="D871CD43-2D03-166A-5080-05949721512E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:31:11 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicina" id="90C49B9E-7AEA-E9CB-D8F9-D3D2D1593556">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:31:11 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marka" id="4C24A4D3-AFF1-BD45-7952-55AB6C3A6CF7">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:31:11 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deo_deo_id" id="C184FEF3-522B-3030-198C-9A755C895A05">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:36:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA0339C8-7C7E-80D2-2D99-3DDE79D729E0" referredColumn="B8CED696-458D-9493-3CD1-66DB7522A745"/>
+</associations>
+</Column>
+<Column name="Deo_id_kategorije" id="ABB75A9B-BA02-7F1B-FBD0-ED7E1D0F39A4">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:36:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA0339C8-7C7E-80D2-2D99-3DDE79D729E0" referredColumn="6B59151A-2382-4013-6044-C889FA644A0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2B384F1-D45F-3B8A-AE25-A141A84FB28C" name="Tockovi_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:31:11 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D871CD43-2D03-166A-5080-05949721512E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0AB1BE-345D-CC88-E2EF-3D7ACF1FA57D" name="Tockovi_Deo_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2023-12-12 12:36:26 UTC</createdTime>
+<ownerDesignName>grupa1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C184FEF3-522B-3030-198C-9A755C895A05"/>
+<colUsage columnID="ABB75A9B-BA02-7F1B-FBD0-ED7E1D0F39A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
